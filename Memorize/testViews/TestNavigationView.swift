@@ -37,6 +37,7 @@ struct TestNavigationView: View {
     static var x4 = Title(name: "x4")
     static var x5 = Title(name: "x5")
     @State var titleArray = [x1,x2,x3,x4,x5]
+    @State var sheetFlag = false
     var body: some View{
         NavigationView {
             VStack{
@@ -61,9 +62,16 @@ struct TestNavigationView: View {
                     print("---")
                 }, label: {Text("Show array")})
                 
-            }.toolbar {
-                EditButton()
             }
+            .sheet(isPresented: $sheetFlag, content: {Text("inside sheet") })
+            .toolbar {
+//                EditButton()
+                Button("New Game", action: {
+                    sheetFlag.toggle()
+                })
+                
+            }
+            
         }
     }
     

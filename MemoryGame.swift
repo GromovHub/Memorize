@@ -4,7 +4,6 @@
 //
 //  Created by Vitaly Gromov on 4/9/22.
 //
-
 import Foundation
 
 struct MemoryGame <CardContent> where CardContent: Equatable {
@@ -12,10 +11,13 @@ struct MemoryGame <CardContent> where CardContent: Equatable {
     
     private(set) var cards: Array<Card>
     
-    private var indexOfTheOneAndOnlyFaceUpCard: Int?
+    private var indexOfTheOneAndOnlyFaceUpCard: Int? {
+        get {cards.indices.filter({cards[$0].isFacedUp}).oneAndOnly}
+        set {cards.indices.forEach{cards[$0].isFacedUp = ($0 == newValue)}}
+    }
     
     init(numberOfPairsOfCards: Int, createCardContent: (Int) -> CardContent) {
-        cards = Array<Card>()
+        cards = []
         // add numberOfPairsOfCards x 2 cards to cards array
         for pairIndex in 0..<numberOfPairsOfCards {
             let content = createCardContent(pairIndex)
@@ -37,24 +39,30 @@ struct MemoryGame <CardContent> where CardContent: Equatable {
                     cards[chosenIndex].matched = true
                     cards[potentialMatchIndex].matched = true
                 }
-                indexOfTheOneAndOnlyFaceUpCard = nil
+                cards[chosenIndex].isFacedUp = true
             } else {
-                // i in 0..<cards.count
-                for i in cards.indices {
-                    cards[i].isFacedUp = false
-                }
+               
                 indexOfTheOneAndOnlyFaceUpCard = chosenIndex
             }
-            cards[chosenIndex].isFacedUp.toggle()
+           
         }
         print(cards)
     }
     
     struct Card: Identifiable {
-        var isFacedUp: Bool = false
-        var matched: Bool = false
-        var content: CardContent
-        var id: Int
+        var isFacedUp = false
+        var matched = false
+        let content: CardContent
+        let id: Int
     }
 }
-
+extension Array {
+    var oneAndOnly: Element? {
+        if self.count == 1 {
+            return self.first
+        } else {
+            return nil
+        }
+    }
+    
+}

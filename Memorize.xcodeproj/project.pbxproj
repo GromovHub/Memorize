@@ -12,6 +12,7 @@
 		EC34825F2801AADB000F1FF6 /* emptytest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825E2801AADB000F1FF6 /* emptytest.swift */; };
 		EC34826128020E12000F1FF6 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34826028020E12000F1FF6 /* EmojiMemoryGame.swift */; };
 		EC3893EF280C10440082228D /* TestForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3893EE280C10440082228D /* TestForm.swift */; };
+		EC4776BA282EF22000E3AB4A /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776B9282EF22000E3AB4A /* Pie.swift */; };
 		EC61C7A22815837100A78826 /* TestModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A12815837100A78826 /* TestModifiers.swift */; };
 		EC61C7A42815915700A78826 /* TestWrapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A32815915700A78826 /* TestWrapped.swift */; };
 		EC61C7A6281596E100A78826 /* TestWrappedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A5281596E100A78826 /* TestWrappedModel.swift */; };
@@ -29,11 +30,21 @@
 		EC674F88280B50C900D269AC /* TestTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC674F87280B50C900D269AC /* TestTabView.swift */; };
 		EC742C8728113E630007018C /* TestAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC742C8628113E630007018C /* TestAlert.swift */; };
 		EC7B8DB627F38B1B00B76550 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B8DB527F38B1B00B76550 /* MemorizeApp.swift */; };
-		EC7B8DB827F38B1B00B76550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B8DB727F38B1B00B76550 /* ContentView.swift */; };
+		EC7B8DB827F38B1B00B76550 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B8DB727F38B1B00B76550 /* EmojiMemoryGameView.swift */; };
 		EC7B8DBA27F38B1C00B76550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7B8DB927F38B1C00B76550 /* Assets.xcassets */; };
 		EC7B8DBD27F38B1C00B76550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7B8DBC27F38B1C00B76550 /* Preview Assets.xcassets */; };
+		EC8B4C40281BA41400EA0E2C /* TestNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B4C3F281BA41400EA0E2C /* TestNavigationLink.swift */; };
+		EC8B4C42281D283800EA0E2C /* TestSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B4C41281D283800EA0E2C /* TestSheet.swift */; };
+		EC8B4C44281D5C6200EA0E2C /* TestNavigationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B4C43281D5C6200EA0E2C /* TestNavigationView2.swift */; };
+		EC8B4C46281ED52100EA0E2C /* TestOpenSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B4C45281ED52100EA0E2C /* TestOpenSettings.swift */; };
+		EC8B4C482821A19B00EA0E2C /* TestUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B4C472821A19B00EA0E2C /* TestUserDefaults.swift */; };
+		EC8B4C4A28223B7000EA0E2C /* TestJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B4C4928223B7000EA0E2C /* TestJSON.swift */; };
+		EC8B4C4C282463BF00EA0E2C /* TestPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B4C4B282463BF00EA0E2C /* TestPriority.swift */; };
 		ECB761C82804B61C00BFA45D /* TestGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB761C72804B61C00BFA45D /* TestGradient.swift */; };
 		ECC4EC6827FF46220085C741 /* testViewShapeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4EC6727FF46220085C741 /* testViewShapeList.swift */; };
+		ECE9E55328259C2A0051BEF3 /* TestGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9E55228259C2A0051BEF3 /* TestGeometryReader.swift */; };
+		ECE9E555282630370051BEF3 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9E554282630370051BEF3 /* AspectVGrid.swift */; };
+		ECE9E557282CC8860051BEF3 /* TestImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9E556282CC8860051BEF3 /* TestImage.swift */; };
 		ECFD39E827FCB74A00D377F0 /* testViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD39E727FCB74A00D377F0 /* testViewList.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +54,7 @@
 		EC34825E2801AADB000F1FF6 /* emptytest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emptytest.swift; sourceTree = "<group>"; };
 		EC34826028020E12000F1FF6 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		EC3893EE280C10440082228D /* TestForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForm.swift; sourceTree = "<group>"; };
+		EC4776B9282EF22000E3AB4A /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		EC61C7A12815837100A78826 /* TestModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModifiers.swift; sourceTree = "<group>"; };
 		EC61C7A32815915700A78826 /* TestWrapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrapped.swift; sourceTree = "<group>"; };
 		EC61C7A5281596E100A78826 /* TestWrappedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrappedModel.swift; sourceTree = "<group>"; };
@@ -61,11 +73,21 @@
 		EC742C8628113E630007018C /* TestAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAlert.swift; sourceTree = "<group>"; };
 		EC7B8DB227F38B1B00B76550 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7B8DB527F38B1B00B76550 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		EC7B8DB727F38B1B00B76550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC7B8DB727F38B1B00B76550 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		EC7B8DB927F38B1C00B76550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC7B8DBC27F38B1C00B76550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC8B4C3F281BA41400EA0E2C /* TestNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationLink.swift; sourceTree = "<group>"; };
+		EC8B4C41281D283800EA0E2C /* TestSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSheet.swift; sourceTree = "<group>"; };
+		EC8B4C43281D5C6200EA0E2C /* TestNavigationView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationView2.swift; sourceTree = "<group>"; };
+		EC8B4C45281ED52100EA0E2C /* TestOpenSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOpenSettings.swift; sourceTree = "<group>"; };
+		EC8B4C472821A19B00EA0E2C /* TestUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUserDefaults.swift; sourceTree = "<group>"; };
+		EC8B4C4928223B7000EA0E2C /* TestJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestJSON.swift; sourceTree = "<group>"; };
+		EC8B4C4B282463BF00EA0E2C /* TestPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPriority.swift; sourceTree = "<group>"; };
 		ECB761C72804B61C00BFA45D /* TestGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGradient.swift; sourceTree = "<group>"; };
 		ECC4EC6727FF46220085C741 /* testViewShapeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewShapeList.swift; sourceTree = "<group>"; };
+		ECE9E55228259C2A0051BEF3 /* TestGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGeometryReader.swift; sourceTree = "<group>"; };
+		ECE9E554282630370051BEF3 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
+		ECE9E556282CC8860051BEF3 /* TestImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImage.swift; sourceTree = "<group>"; };
 		ECFD39E727FCB74A00D377F0 /* testViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,19 +105,28 @@
 		EC34825D2801A011000F1FF6 /* testViews */ = {
 			isa = PBXGroup;
 			children = (
+				ECE9E55228259C2A0051BEF3 /* TestGeometryReader.swift */,
 				EC34825928019DD8000F1FF6 /* testViewListList.swift */,
+				ECE9E556282CC8860051BEF3 /* TestImage.swift */,
+				EC8B4C472821A19B00EA0E2C /* TestUserDefaults.swift */,
+				EC8B4C4928223B7000EA0E2C /* TestJSON.swift */,
 				ECFD39E727FCB74A00D377F0 /* testViewList.swift */,
 				ECC4EC6727FF46220085C741 /* testViewShapeList.swift */,
 				EC674F7B280758D800D269AC /* TestPicker.swift */,
 				EC674F712805A29400D269AC /* TestToggle.swift */,
 				EC674F7F28080E6C00D269AC /* TestOnTapGesture.swift */,
 				EC674F79280754B900D269AC /* TestSlider.swift */,
+				EC8B4C3F281BA41400EA0E2C /* TestNavigationLink.swift */,
+				EC8B4C41281D283800EA0E2C /* TestSheet.swift */,
 				EC674F7728074F7400D269AC /* TestTextField.swift */,
+				EC8B4C45281ED52100EA0E2C /* TestOpenSettings.swift */,
+				EC8B4C4B282463BF00EA0E2C /* TestPriority.swift */,
 				EC674F7D2807623100D269AC /* TestStepper.swift */,
 				EC61C7A12815837100A78826 /* TestModifiers.swift */,
 				EC34825E2801AADB000F1FF6 /* emptytest.swift */,
 				EC3893EE280C10440082228D /* TestForm.swift */,
 				EC674F8328086CF300D269AC /* TestNavigationView.swift */,
+				EC8B4C43281D5C6200EA0E2C /* TestNavigationView2.swift */,
 				ECB761C72804B61C00BFA45D /* TestGradient.swift */,
 				EC674F732805A4ED00D269AC /* TestModel1.swift */,
 				EC742C8628113E630007018C /* TestAlert.swift */,
@@ -129,9 +160,11 @@
 			isa = PBXGroup;
 			children = (
 				EC7B8DB527F38B1B00B76550 /* MemorizeApp.swift */,
-				EC7B8DB727F38B1B00B76550 /* ContentView.swift */,
+				EC7B8DB727F38B1B00B76550 /* EmojiMemoryGameView.swift */,
+				ECE9E554282630370051BEF3 /* AspectVGrid.swift */,
 				EC34825B28019FED000F1FF6 /* MemoryGame.swift */,
 				EC34826028020E12000F1FF6 /* EmojiMemoryGame.swift */,
+				EC4776B9282EF22000E3AB4A /* Pie.swift */,
 				EC7B8DB927F38B1C00B76550 /* Assets.xcassets */,
 				EC34825D2801A011000F1FF6 /* testViews */,
 				EC7B8DBB27F38B1C00B76550 /* Preview Content */,
@@ -220,26 +253,37 @@
 				ECB761C82804B61C00BFA45D /* TestGradient.swift in Sources */,
 				EC34825C28019FED000F1FF6 /* MemoryGame.swift in Sources */,
 				EC674F7A280754B900D269AC /* TestSlider.swift in Sources */,
-				EC7B8DB827F38B1B00B76550 /* ContentView.swift in Sources */,
+				EC8B4C4A28223B7000EA0E2C /* TestJSON.swift in Sources */,
+				EC7B8DB827F38B1B00B76550 /* EmojiMemoryGameView.swift in Sources */,
+				EC4776BA282EF22000E3AB4A /* Pie.swift in Sources */,
+				EC8B4C4C282463BF00EA0E2C /* TestPriority.swift in Sources */,
+				EC8B4C44281D5C6200EA0E2C /* TestNavigationView2.swift in Sources */,
 				EC674F7C280758D800D269AC /* TestPicker.swift in Sources */,
 				EC674F722805A29400D269AC /* TestToggle.swift in Sources */,
 				EC7B8DB627F38B1B00B76550 /* MemorizeApp.swift in Sources */,
 				EC34825A28019DD8000F1FF6 /* testViewListList.swift in Sources */,
 				ECC4EC6827FF46220085C741 /* testViewShapeList.swift in Sources */,
+				ECE9E55328259C2A0051BEF3 /* TestGeometryReader.swift in Sources */,
 				EC674F8428086CF300D269AC /* TestNavigationView.swift in Sources */,
 				EC674F822808135300D269AC /* TestList.swift in Sources */,
 				ECFD39E827FCB74A00D377F0 /* testViewList.swift in Sources */,
 				EC34825F2801AADB000F1FF6 /* emptytest.swift in Sources */,
+				EC8B4C46281ED52100EA0E2C /* TestOpenSettings.swift in Sources */,
 				EC742C8728113E630007018C /* TestAlert.swift in Sources */,
 				EC34826128020E12000F1FF6 /* EmojiMemoryGame.swift in Sources */,
+				EC8B4C482821A19B00EA0E2C /* TestUserDefaults.swift in Sources */,
 				EC674F76280723C900D269AC /* TestButtom.swift in Sources */,
 				EC61C7A22815837100A78826 /* TestModifiers.swift in Sources */,
+				ECE9E555282630370051BEF3 /* AspectVGrid.swift in Sources */,
 				EC61C7A6281596E100A78826 /* TestWrappedModel.swift in Sources */,
+				ECE9E557282CC8860051BEF3 /* TestImage.swift in Sources */,
 				EC674F88280B50C900D269AC /* TestTabView.swift in Sources */,
+				EC8B4C42281D283800EA0E2C /* TestSheet.swift in Sources */,
 				EC674F742805A4ED00D269AC /* TestModel1.swift in Sources */,
 				EC674F8628092D8A00D269AC /* TestNavigationViewModel.swift in Sources */,
 				EC61C7A42815915700A78826 /* TestWrapped.swift in Sources */,
 				EC674F7828074F7400D269AC /* TestTextField.swift in Sources */,
+				EC8B4C40281BA41400EA0E2C /* TestNavigationLink.swift in Sources */,
 				EC3893EF280C10440082228D /* TestForm.swift in Sources */,
 				EC674F8028080E6C00D269AC /* TestOnTapGesture.swift in Sources */,
 				EC674F7E2807623100D269AC /* TestStepper.swift in Sources */,

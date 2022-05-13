@@ -9,16 +9,28 @@ import SwiftUI
 
 @main
 struct MemorizeApp: App {
-    let game: EmojiMemoryGame = EmojiMemoryGame()
+    
+    private let game: EmojiMemoryGame = EmojiMemoryGame()
+    
+    
     let game1: TestModel1 = TestModel1()
 let wrapMod = WrappedModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: game)
+            TestImage()
+//            EmojiMemoryGameView(game: game)
+//            TestOpenSettings()
+//            TestJSON()
+//            TestNavigationLink()
             //EmptyTestContentView()
             //TestToggle(model: game1)
             //TestButton()
 //            TestWrapped(wrappedModel: wrapMod)
+//TestSheet()
+//            TestNavigationView()
+//            TestNavigationView2()
+            
         }
     }
 }

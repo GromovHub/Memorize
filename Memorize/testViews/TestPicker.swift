@@ -23,26 +23,35 @@ struct TestPicker: View {
 //                    Text(arr[$0])
 //                }
 //            }, label: {Text("chooose")}).pickerStyle(.automatic)
-//            
-//            Picker(selection: $select, content: {
-//                ForEach(0..<arr.count){
-//                    Text(arr[$0])
-//                }
-//            }, label: {Text("chooose")}).pickerStyle(.menu)
-//            
+//
+//
 //            Picker(selection: $select, content: {
 //                ForEach(0..<arr.count){
 //                    Text(arr[$0])
 //                }
 //            }, label: {Text("chooose")}).pickerStyle(.segmented)
-//            
+//
 //            Picker(selection: $select, content: {
 //                ForEach(0..<arr.count){
 //                    Text(arr[$0])
 //                }
 //            }, label: {Text("chooose")}).pickerStyle(.wheel)
-                   
-        Text("selected -> \(select)")
+//
+//        Text("selected -> \(select)")
+//            Spacer()
+//            HStack {
+//                Picker(selection: $select, content: {
+//                    ForEach(0..<arr.count){
+//                        Text(arr[$0])
+//                    }
+//                }, label: {Text("chooose")}).pickerStyle(.menu)
+//                Spacer()
+//                Picker(selection: $select, content: {
+//                    ForEach(0..<arr.count){
+//                        Text(arr[$0])
+//                    }
+//                }, label: {Text("chooose")}).pickerStyle(.menu)
+//            }
         }
                    }
 }
