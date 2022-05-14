@@ -13,6 +13,7 @@
 		EC34826128020E12000F1FF6 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34826028020E12000F1FF6 /* EmojiMemoryGame.swift */; };
 		EC3893EF280C10440082228D /* TestForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3893EE280C10440082228D /* TestForm.swift */; };
 		EC4776BA282EF22000E3AB4A /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776B9282EF22000E3AB4A /* Pie.swift */; };
+		EC4776BC282FAB5000E3AB4A /* TestViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776BB282FAB5000E3AB4A /* TestViewBuilder.swift */; };
 		EC61C7A22815837100A78826 /* TestModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A12815837100A78826 /* TestModifiers.swift */; };
 		EC61C7A42815915700A78826 /* TestWrapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A32815915700A78826 /* TestWrapped.swift */; };
 		EC61C7A6281596E100A78826 /* TestWrappedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A5281596E100A78826 /* TestWrappedModel.swift */; };
@@ -55,6 +56,7 @@
 		EC34826028020E12000F1FF6 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		EC3893EE280C10440082228D /* TestForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForm.swift; sourceTree = "<group>"; };
 		EC4776B9282EF22000E3AB4A /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		EC4776BB282FAB5000E3AB4A /* TestViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewBuilder.swift; sourceTree = "<group>"; };
 		EC61C7A12815837100A78826 /* TestModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModifiers.swift; sourceTree = "<group>"; };
 		EC61C7A32815915700A78826 /* TestWrapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrapped.swift; sourceTree = "<group>"; };
 		EC61C7A5281596E100A78826 /* TestWrappedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrappedModel.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				EC8B4C3F281BA41400EA0E2C /* TestNavigationLink.swift */,
 				EC8B4C41281D283800EA0E2C /* TestSheet.swift */,
 				EC674F7728074F7400D269AC /* TestTextField.swift */,
+				EC4776BB282FAB5000E3AB4A /* TestViewBuilder.swift */,
 				EC8B4C45281ED52100EA0E2C /* TestOpenSettings.swift */,
 				EC8B4C4B282463BF00EA0E2C /* TestPriority.swift */,
 				EC674F7D2807623100D269AC /* TestStepper.swift */,
@@ -270,6 +273,7 @@
 				EC34825F2801AADB000F1FF6 /* emptytest.swift in Sources */,
 				EC8B4C46281ED52100EA0E2C /* TestOpenSettings.swift in Sources */,
 				EC742C8728113E630007018C /* TestAlert.swift in Sources */,
+				EC4776BC282FAB5000E3AB4A /* TestViewBuilder.swift in Sources */,
 				EC34826128020E12000F1FF6 /* EmojiMemoryGame.swift in Sources */,
 				EC8B4C482821A19B00EA0E2C /* TestUserDefaults.swift in Sources */,
 				EC674F76280723C900D269AC /* TestButtom.swift in Sources */,
