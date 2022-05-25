@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC063409283A9493003FEFDE /* TestColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC063408283A9493003FEFDE /* TestColor.swift */; };
 		EC34825A28019DD8000F1FF6 /* testViewListList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825928019DD8000F1FF6 /* testViewListList.swift */; };
 		EC34825C28019FED000F1FF6 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825B28019FED000F1FF6 /* MemoryGame.swift */; };
 		EC34825F2801AADB000F1FF6 /* emptytest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825E2801AADB000F1FF6 /* emptytest.swift */; };
@@ -14,6 +15,10 @@
 		EC3893EF280C10440082228D /* TestForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3893EE280C10440082228D /* TestForm.swift */; };
 		EC4776BA282EF22000E3AB4A /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776B9282EF22000E3AB4A /* Pie.swift */; };
 		EC4776BC282FAB5000E3AB4A /* TestViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776BB282FAB5000E3AB4A /* TestViewBuilder.swift */; };
+		EC4776C0283025F500E3AB4A /* TestViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776BF283025F500E3AB4A /* TestViewModifier.swift */; };
+		EC4776C22830CD0C00E3AB4A /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776C12830CD0C00E3AB4A /* Cardify.swift */; };
+		EC4776C428320AE700E3AB4A /* TestAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776C328320AE700E3AB4A /* TestAnimation.swift */; };
+		EC4776C62835720500E3AB4A /* TestAnimation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776C52835720500E3AB4A /* TestAnimation2.swift */; };
 		EC61C7A22815837100A78826 /* TestModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A12815837100A78826 /* TestModifiers.swift */; };
 		EC61C7A42815915700A78826 /* TestWrapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A32815915700A78826 /* TestWrapped.swift */; };
 		EC61C7A6281596E100A78826 /* TestWrappedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A5281596E100A78826 /* TestWrappedModel.swift */; };
@@ -50,6 +55,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC063408283A9493003FEFDE /* TestColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColor.swift; sourceTree = "<group>"; };
 		EC34825928019DD8000F1FF6 /* testViewListList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewListList.swift; sourceTree = "<group>"; };
 		EC34825B28019FED000F1FF6 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = SOURCE_ROOT; };
 		EC34825E2801AADB000F1FF6 /* emptytest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emptytest.swift; sourceTree = "<group>"; };
@@ -57,6 +63,10 @@
 		EC3893EE280C10440082228D /* TestForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForm.swift; sourceTree = "<group>"; };
 		EC4776B9282EF22000E3AB4A /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		EC4776BB282FAB5000E3AB4A /* TestViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewBuilder.swift; sourceTree = "<group>"; };
+		EC4776BF283025F500E3AB4A /* TestViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModifier.swift; sourceTree = "<group>"; };
+		EC4776C12830CD0C00E3AB4A /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		EC4776C328320AE700E3AB4A /* TestAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimation.swift; sourceTree = "<group>"; };
+		EC4776C52835720500E3AB4A /* TestAnimation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimation2.swift; sourceTree = "<group>"; };
 		EC61C7A12815837100A78826 /* TestModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModifiers.swift; sourceTree = "<group>"; };
 		EC61C7A32815915700A78826 /* TestWrapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrapped.swift; sourceTree = "<group>"; };
 		EC61C7A5281596E100A78826 /* TestWrappedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrappedModel.swift; sourceTree = "<group>"; };
@@ -117,10 +127,12 @@
 				EC674F7B280758D800D269AC /* TestPicker.swift */,
 				EC674F712805A29400D269AC /* TestToggle.swift */,
 				EC674F7F28080E6C00D269AC /* TestOnTapGesture.swift */,
+				EC063408283A9493003FEFDE /* TestColor.swift */,
 				EC674F79280754B900D269AC /* TestSlider.swift */,
 				EC8B4C3F281BA41400EA0E2C /* TestNavigationLink.swift */,
 				EC8B4C41281D283800EA0E2C /* TestSheet.swift */,
 				EC674F7728074F7400D269AC /* TestTextField.swift */,
+				EC4776C328320AE700E3AB4A /* TestAnimation.swift */,
 				EC4776BB282FAB5000E3AB4A /* TestViewBuilder.swift */,
 				EC8B4C45281ED52100EA0E2C /* TestOpenSettings.swift */,
 				EC8B4C4B282463BF00EA0E2C /* TestPriority.swift */,
@@ -129,6 +141,7 @@
 				EC34825E2801AADB000F1FF6 /* emptytest.swift */,
 				EC3893EE280C10440082228D /* TestForm.swift */,
 				EC674F8328086CF300D269AC /* TestNavigationView.swift */,
+				EC4776BF283025F500E3AB4A /* TestViewModifier.swift */,
 				EC8B4C43281D5C6200EA0E2C /* TestNavigationView2.swift */,
 				ECB761C72804B61C00BFA45D /* TestGradient.swift */,
 				EC674F732805A4ED00D269AC /* TestModel1.swift */,
@@ -139,6 +152,7 @@
 				EC674F812808135300D269AC /* TestList.swift */,
 				EC674F87280B50C900D269AC /* TestTabView.swift */,
 				EC674F75280723C900D269AC /* TestButtom.swift */,
+				EC4776C52835720500E3AB4A /* TestAnimation2.swift */,
 			);
 			path = testViews;
 			sourceTree = "<group>";
@@ -166,6 +180,7 @@
 				EC7B8DB727F38B1B00B76550 /* EmojiMemoryGameView.swift */,
 				ECE9E554282630370051BEF3 /* AspectVGrid.swift */,
 				EC34825B28019FED000F1FF6 /* MemoryGame.swift */,
+				EC4776C12830CD0C00E3AB4A /* Cardify.swift */,
 				EC34826028020E12000F1FF6 /* EmojiMemoryGame.swift */,
 				EC4776B9282EF22000E3AB4A /* Pie.swift */,
 				EC7B8DB927F38B1C00B76550 /* Assets.xcassets */,
@@ -254,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECB761C82804B61C00BFA45D /* TestGradient.swift in Sources */,
+				EC063409283A9493003FEFDE /* TestColor.swift in Sources */,
 				EC34825C28019FED000F1FF6 /* MemoryGame.swift in Sources */,
+				EC4776C0283025F500E3AB4A /* TestViewModifier.swift in Sources */,
 				EC674F7A280754B900D269AC /* TestSlider.swift in Sources */,
 				EC8B4C4A28223B7000EA0E2C /* TestJSON.swift in Sources */,
 				EC7B8DB827F38B1B00B76550 /* EmojiMemoryGameView.swift in Sources */,
@@ -270,6 +287,7 @@
 				EC674F8428086CF300D269AC /* TestNavigationView.swift in Sources */,
 				EC674F822808135300D269AC /* TestList.swift in Sources */,
 				ECFD39E827FCB74A00D377F0 /* testViewList.swift in Sources */,
+				EC4776C22830CD0C00E3AB4A /* Cardify.swift in Sources */,
 				EC34825F2801AADB000F1FF6 /* emptytest.swift in Sources */,
 				EC8B4C46281ED52100EA0E2C /* TestOpenSettings.swift in Sources */,
 				EC742C8728113E630007018C /* TestAlert.swift in Sources */,
@@ -285,12 +303,14 @@
 				EC8B4C42281D283800EA0E2C /* TestSheet.swift in Sources */,
 				EC674F742805A4ED00D269AC /* TestModel1.swift in Sources */,
 				EC674F8628092D8A00D269AC /* TestNavigationViewModel.swift in Sources */,
+				EC4776C428320AE700E3AB4A /* TestAnimation.swift in Sources */,
 				EC61C7A42815915700A78826 /* TestWrapped.swift in Sources */,
 				EC674F7828074F7400D269AC /* TestTextField.swift in Sources */,
 				EC8B4C40281BA41400EA0E2C /* TestNavigationLink.swift in Sources */,
 				EC3893EF280C10440082228D /* TestForm.swift in Sources */,
 				EC674F8028080E6C00D269AC /* TestOnTapGesture.swift in Sources */,
 				EC674F7E2807623100D269AC /* TestStepper.swift in Sources */,
+				EC4776C62835720500E3AB4A /* TestAnimation2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

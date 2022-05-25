@@ -18,8 +18,9 @@ let wrapMod = WrappedModel()
     
     var body: some Scene {
         WindowGroup {
-            TestImage()
-//            EmojiMemoryGameView(game: game)
+//            TestImage()
+//            TestAnimation2()
+            EmojiMemoryGameView(game: game)
 //            TestOpenSettings()
 //            TestJSON()
 //            TestNavigationLink()
