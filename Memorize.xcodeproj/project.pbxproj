@@ -19,6 +19,7 @@
 		EC4776C22830CD0C00E3AB4A /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776C12830CD0C00E3AB4A /* Cardify.swift */; };
 		EC4776C428320AE700E3AB4A /* TestAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776C328320AE700E3AB4A /* TestAnimation.swift */; };
 		EC4776C62835720500E3AB4A /* TestAnimation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776C52835720500E3AB4A /* TestAnimation2.swift */; };
+		EC51CE6F284939AD00C1270C /* TestComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51CE6E284939AD00C1270C /* TestComparison.swift */; };
 		EC61C7A22815837100A78826 /* TestModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A12815837100A78826 /* TestModifiers.swift */; };
 		EC61C7A42815915700A78826 /* TestWrapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A32815915700A78826 /* TestWrapped.swift */; };
 		EC61C7A6281596E100A78826 /* TestWrappedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A5281596E100A78826 /* TestWrappedModel.swift */; };
@@ -67,6 +68,7 @@
 		EC4776C12830CD0C00E3AB4A /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		EC4776C328320AE700E3AB4A /* TestAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimation.swift; sourceTree = "<group>"; };
 		EC4776C52835720500E3AB4A /* TestAnimation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimation2.swift; sourceTree = "<group>"; };
+		EC51CE6E284939AD00C1270C /* TestComparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestComparison.swift; sourceTree = "<group>"; };
 		EC61C7A12815837100A78826 /* TestModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModifiers.swift; sourceTree = "<group>"; };
 		EC61C7A32815915700A78826 /* TestWrapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrapped.swift; sourceTree = "<group>"; };
 		EC61C7A5281596E100A78826 /* TestWrappedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrappedModel.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				EC674F712805A29400D269AC /* TestToggle.swift */,
 				EC674F7F28080E6C00D269AC /* TestOnTapGesture.swift */,
 				EC063408283A9493003FEFDE /* TestColor.swift */,
+				EC51CE6E284939AD00C1270C /* TestComparison.swift */,
 				EC674F79280754B900D269AC /* TestSlider.swift */,
 				EC8B4C3F281BA41400EA0E2C /* TestNavigationLink.swift */,
 				EC8B4C41281D283800EA0E2C /* TestSheet.swift */,
@@ -270,6 +273,7 @@
 			files = (
 				ECB761C82804B61C00BFA45D /* TestGradient.swift in Sources */,
 				EC063409283A9493003FEFDE /* TestColor.swift in Sources */,
+				EC51CE6F284939AD00C1270C /* TestComparison.swift in Sources */,
 				EC34825C28019FED000F1FF6 /* MemoryGame.swift in Sources */,
 				EC4776C0283025F500E3AB4A /* TestViewModifier.swift in Sources */,
 				EC674F7A280754B900D269AC /* TestSlider.swift in Sources */,
