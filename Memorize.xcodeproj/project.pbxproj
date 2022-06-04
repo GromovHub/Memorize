@@ -55,6 +55,7 @@
 		ECE9E55328259C2A0051BEF3 /* TestGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9E55228259C2A0051BEF3 /* TestGeometryReader.swift */; };
 		ECE9E555282630370051BEF3 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9E554282630370051BEF3 /* AspectVGrid.swift */; };
 		ECE9E557282CC8860051BEF3 /* TestImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9E556282CC8860051BEF3 /* TestImage.swift */; };
+		ECF1A87E284BCFD60064DDC8 /* TestVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF1A87D284BCFD60064DDC8 /* TestVariadic.swift */; };
 		ECFD39E827FCB74A00D377F0 /* testViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD39E727FCB74A00D377F0 /* testViewList.swift */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +108,7 @@
 		ECE9E55228259C2A0051BEF3 /* TestGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGeometryReader.swift; sourceTree = "<group>"; };
 		ECE9E554282630370051BEF3 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 		ECE9E556282CC8860051BEF3 /* TestImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImage.swift; sourceTree = "<group>"; };
+		ECF1A87D284BCFD60064DDC8 /* TestVariadic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVariadic.swift; sourceTree = "<group>"; };
 		ECFD39E727FCB74A00D377F0 /* testViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +146,7 @@
 				EC4E95AA284A1BD80025FC0E /* TestCelFah.swift */,
 				EC674F7728074F7400D269AC /* TestTextField.swift */,
 				EC4776C328320AE700E3AB4A /* TestAnimation.swift */,
+				ECF1A87D284BCFD60064DDC8 /* TestVariadic.swift */,
 				EC4776BB282FAB5000E3AB4A /* TestViewBuilder.swift */,
 				EC8B4C45281ED52100EA0E2C /* TestOpenSettings.swift */,
 				EC8B4C4B282463BF00EA0E2C /* TestPriority.swift */,
@@ -319,6 +322,7 @@
 				ECE9E555282630370051BEF3 /* AspectVGrid.swift in Sources */,
 				EC61C7A6281596E100A78826 /* TestWrappedModel.swift in Sources */,
 				ECE9E557282CC8860051BEF3 /* TestImage.swift in Sources */,
+				ECF1A87E284BCFD60064DDC8 /* TestVariadic.swift in Sources */,
 				EC674F88280B50C900D269AC /* TestTabView.swift in Sources */,
 				EC8B4C42281D283800EA0E2C /* TestSheet.swift in Sources */,
 				EC674F742805A4ED00D269AC /* TestModel1.swift in Sources */,

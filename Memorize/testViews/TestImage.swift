@@ -39,7 +39,7 @@ struct CircleView: View {
         ZStack {
             Circle()
              .fill(.white)
-         Image("iam")
+         Image("Wheel")
              .resizable()
              .scaledToFit()
              .clipShape(Circle())
