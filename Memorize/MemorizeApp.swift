@@ -12,9 +12,9 @@ struct MemorizeApp: App {
     
     private let game: EmojiMemoryGame = EmojiMemoryGame()
     
-    
-    let game1: TestModel1 = TestModel1()
-let wrapMod = WrappedModel()
+//    let game1: TestModel1 = TestModel1()
+//    let wrapMod = WrappedModel()
+//    let testTemp = TestTemp()
     
     var body: some Scene {
         WindowGroup {
@@ -23,15 +23,15 @@ let wrapMod = WrappedModel()
 //            EmojiMemoryGameView(game: game)
 //            TestKingFisher()
 //            TestCelFah()
-            TestVariadic()
+              TestVariadic()
 //            TestOpenSettings()
 //            TestJSON()
 //            TestNavigationLink()
-            //EmptyTestContentView()
-            //TestToggle(model: game1)
-            //TestButton()
+//            EmptyTestContentView()
+//            TestToggle(model: game1)
+//            TestButton()
 //            TestWrapped(wrappedModel: wrapMod)
-//TestSheet()
+//            TestSheet()
 //            TestNavigationView()
 //            TestNavigationView2()
             

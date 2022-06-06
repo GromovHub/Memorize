@@ -21,6 +21,7 @@
 		EC4776C62835720500E3AB4A /* TestAnimation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776C52835720500E3AB4A /* TestAnimation2.swift */; };
 		EC4E95AB284A1BD80025FC0E /* TestCelFah.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4E95AA284A1BD80025FC0E /* TestCelFah.swift */; };
 		EC51CE6F284939AD00C1270C /* TestComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC51CE6E284939AD00C1270C /* TestComparison.swift */; };
+		EC58AAD5284E7AD200091778 /* TestTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58AAD4284E7AD200091778 /* TestTemp.swift */; };
 		EC61C7A22815837100A78826 /* TestModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A12815837100A78826 /* TestModifiers.swift */; };
 		EC61C7A42815915700A78826 /* TestWrapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A32815915700A78826 /* TestWrapped.swift */; };
 		EC61C7A6281596E100A78826 /* TestWrappedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61C7A5281596E100A78826 /* TestWrappedModel.swift */; };
@@ -74,6 +75,7 @@
 		EC4776C52835720500E3AB4A /* TestAnimation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimation2.swift; sourceTree = "<group>"; };
 		EC4E95AA284A1BD80025FC0E /* TestCelFah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCelFah.swift; sourceTree = "<group>"; };
 		EC51CE6E284939AD00C1270C /* TestComparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestComparison.swift; sourceTree = "<group>"; };
+		EC58AAD4284E7AD200091778 /* TestTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTemp.swift; sourceTree = "<group>"; };
 		EC61C7A12815837100A78826 /* TestModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModifiers.swift; sourceTree = "<group>"; };
 		EC61C7A32815915700A78826 /* TestWrapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrapped.swift; sourceTree = "<group>"; };
 		EC61C7A5281596E100A78826 /* TestWrappedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWrappedModel.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				EC8B4C472821A19B00EA0E2C /* TestUserDefaults.swift */,
 				EC6A792F28495E72004A0782 /* TestKingFisher.swift */,
 				EC8B4C4928223B7000EA0E2C /* TestJSON.swift */,
+				EC58AAD4284E7AD200091778 /* TestTemp.swift */,
 				ECFD39E727FCB74A00D377F0 /* testViewList.swift */,
 				ECC4EC6727FF46220085C741 /* testViewShapeList.swift */,
 				EC674F7B280758D800D269AC /* TestPicker.swift */,
@@ -319,6 +322,7 @@
 				EC8B4C482821A19B00EA0E2C /* TestUserDefaults.swift in Sources */,
 				EC674F76280723C900D269AC /* TestButtom.swift in Sources */,
 				EC61C7A22815837100A78826 /* TestModifiers.swift in Sources */,
+				EC58AAD5284E7AD200091778 /* TestTemp.swift in Sources */,
 				ECE9E555282630370051BEF3 /* AspectVGrid.swift in Sources */,
 				EC61C7A6281596E100A78826 /* TestWrappedModel.swift in Sources */,
 				ECE9E557282CC8860051BEF3 /* TestImage.swift in Sources */,
