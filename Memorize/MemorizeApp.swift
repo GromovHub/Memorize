@@ -14,7 +14,7 @@ struct MemorizeApp: App {
     
 //    let game1: TestModel1 = TestModel1()
 //    let wrapMod = WrappedModel()
-//    let testTemp = TestTemp()
+    let testTemp = TestTemp()
     
     var body: some Scene {
         WindowGroup {
