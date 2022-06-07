@@ -10,13 +10,7 @@ import Foundation
 struct TestTemp {
     
     init() {
-        for _ in 0...100 {}
-        aboutSet()
-        aboutEnums(dayOfWeek: .Sunday)
-    }
-    
-    private func sayHello() {
-    print("hello")
+       aboutLoop()
     }
     
     private func asyncHello() {
@@ -102,5 +96,19 @@ struct TestTemp {
         case .Sunday:
             print("Sun")
         }
+    }
+    
+    private func aboutLoop() {
+    outer: for i in 0...10 {
+        if i == 3 {
+            continue
+        }
+    inner: for j in 0...10 {
+        print(i+j, terminator: " - ")
+        if i == 5 {
+            break outer
+        }
+    }
+    }
     }
 }
