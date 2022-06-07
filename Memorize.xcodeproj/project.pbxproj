@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EC063409283A9493003FEFDE /* TestColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC063408283A9493003FEFDE /* TestColor.swift */; };
-		EC34825A28019DD8000F1FF6 /* testViewListList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825928019DD8000F1FF6 /* testViewListList.swift */; };
+		EC34825A28019DD8000F1FF6 /* TestViewListList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825928019DD8000F1FF6 /* TestViewListList.swift */; };
 		EC34825C28019FED000F1FF6 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825B28019FED000F1FF6 /* MemoryGame.swift */; };
-		EC34825F2801AADB000F1FF6 /* emptytest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825E2801AADB000F1FF6 /* emptytest.swift */; };
+		EC34825F2801AADB000F1FF6 /* TestEmptyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825E2801AADB000F1FF6 /* TestEmptyTest.swift */; };
 		EC34826128020E12000F1FF6 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34826028020E12000F1FF6 /* EmojiMemoryGame.swift */; };
 		EC3893EF280C10440082228D /* TestForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3893EE280C10440082228D /* TestForm.swift */; };
 		EC4776BA282EF22000E3AB4A /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776B9282EF22000E3AB4A /* Pie.swift */; };
@@ -52,19 +52,18 @@
 		EC8B4C4A28223B7000EA0E2C /* TestJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B4C4928223B7000EA0E2C /* TestJSON.swift */; };
 		EC8B4C4C282463BF00EA0E2C /* TestPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B4C4B282463BF00EA0E2C /* TestPriority.swift */; };
 		ECB761C82804B61C00BFA45D /* TestGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB761C72804B61C00BFA45D /* TestGradient.swift */; };
-		ECC4EC6827FF46220085C741 /* testViewShapeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4EC6727FF46220085C741 /* testViewShapeList.swift */; };
+		ECC4EC6827FF46220085C741 /* TestViewShapeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4EC6727FF46220085C741 /* TestViewShapeList.swift */; };
 		ECE9E55328259C2A0051BEF3 /* TestGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9E55228259C2A0051BEF3 /* TestGeometryReader.swift */; };
 		ECE9E555282630370051BEF3 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9E554282630370051BEF3 /* AspectVGrid.swift */; };
 		ECE9E557282CC8860051BEF3 /* TestImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9E556282CC8860051BEF3 /* TestImage.swift */; };
 		ECF1A87E284BCFD60064DDC8 /* TestVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF1A87D284BCFD60064DDC8 /* TestVariadic.swift */; };
-		ECFD39E827FCB74A00D377F0 /* testViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD39E727FCB74A00D377F0 /* testViewList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC063408283A9493003FEFDE /* TestColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColor.swift; sourceTree = "<group>"; };
-		EC34825928019DD8000F1FF6 /* testViewListList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewListList.swift; sourceTree = "<group>"; };
+		EC34825928019DD8000F1FF6 /* TestViewListList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewListList.swift; sourceTree = "<group>"; };
 		EC34825B28019FED000F1FF6 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = SOURCE_ROOT; };
-		EC34825E2801AADB000F1FF6 /* emptytest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emptytest.swift; sourceTree = "<group>"; };
+		EC34825E2801AADB000F1FF6 /* TestEmptyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEmptyTest.swift; sourceTree = "<group>"; };
 		EC34826028020E12000F1FF6 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		EC3893EE280C10440082228D /* TestForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForm.swift; sourceTree = "<group>"; };
 		EC4776B9282EF22000E3AB4A /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
@@ -106,12 +105,11 @@
 		EC8B4C4928223B7000EA0E2C /* TestJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestJSON.swift; sourceTree = "<group>"; };
 		EC8B4C4B282463BF00EA0E2C /* TestPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPriority.swift; sourceTree = "<group>"; };
 		ECB761C72804B61C00BFA45D /* TestGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGradient.swift; sourceTree = "<group>"; };
-		ECC4EC6727FF46220085C741 /* testViewShapeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewShapeList.swift; sourceTree = "<group>"; };
+		ECC4EC6727FF46220085C741 /* TestViewShapeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewShapeList.swift; sourceTree = "<group>"; };
 		ECE9E55228259C2A0051BEF3 /* TestGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGeometryReader.swift; sourceTree = "<group>"; };
 		ECE9E554282630370051BEF3 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 		ECE9E556282CC8860051BEF3 /* TestImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImage.swift; sourceTree = "<group>"; };
 		ECF1A87D284BCFD60064DDC8 /* TestVariadic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVariadic.swift; sourceTree = "<group>"; };
-		ECFD39E727FCB74A00D377F0 /* testViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,18 +124,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EC34825D2801A011000F1FF6 /* testViews */ = {
+		EC34825D2801A011000F1FF6 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
 				ECE9E55228259C2A0051BEF3 /* TestGeometryReader.swift */,
-				EC34825928019DD8000F1FF6 /* testViewListList.swift */,
+				EC34825928019DD8000F1FF6 /* TestViewListList.swift */,
 				ECE9E556282CC8860051BEF3 /* TestImage.swift */,
 				EC8B4C472821A19B00EA0E2C /* TestUserDefaults.swift */,
 				EC6A792F28495E72004A0782 /* TestKingFisher.swift */,
 				EC8B4C4928223B7000EA0E2C /* TestJSON.swift */,
 				EC58AAD4284E7AD200091778 /* TestTemp.swift */,
-				ECFD39E727FCB74A00D377F0 /* testViewList.swift */,
-				ECC4EC6727FF46220085C741 /* testViewShapeList.swift */,
+				ECC4EC6727FF46220085C741 /* TestViewShapeList.swift */,
 				EC674F7B280758D800D269AC /* TestPicker.swift */,
 				EC674F712805A29400D269AC /* TestToggle.swift */,
 				EC674F7F28080E6C00D269AC /* TestOnTapGesture.swift */,
@@ -155,7 +152,7 @@
 				EC8B4C4B282463BF00EA0E2C /* TestPriority.swift */,
 				EC674F7D2807623100D269AC /* TestStepper.swift */,
 				EC61C7A12815837100A78826 /* TestModifiers.swift */,
-				EC34825E2801AADB000F1FF6 /* emptytest.swift */,
+				EC34825E2801AADB000F1FF6 /* TestEmptyTest.swift */,
 				EC3893EE280C10440082228D /* TestForm.swift */,
 				EC674F8328086CF300D269AC /* TestNavigationView.swift */,
 				EC4776BF283025F500E3AB4A /* TestViewModifier.swift */,
@@ -171,7 +168,7 @@
 				EC674F75280723C900D269AC /* TestButtom.swift */,
 				EC4776C52835720500E3AB4A /* TestAnimation2.swift */,
 			);
-			path = testViews;
+			path = Learning;
 			sourceTree = "<group>";
 		};
 		EC7B8DA927F38B1B00B76550 = {
@@ -201,7 +198,7 @@
 				EC34826028020E12000F1FF6 /* EmojiMemoryGame.swift */,
 				EC4776B9282EF22000E3AB4A /* Pie.swift */,
 				EC7B8DB927F38B1C00B76550 /* Assets.xcassets */,
-				EC34825D2801A011000F1FF6 /* testViews */,
+				EC34825D2801A011000F1FF6 /* Learning */,
 				EC7B8DBB27F38B1C00B76550 /* Preview Content */,
 			);
 			path = Memorize;
@@ -305,15 +302,14 @@
 				EC674F7C280758D800D269AC /* TestPicker.swift in Sources */,
 				EC674F722805A29400D269AC /* TestToggle.swift in Sources */,
 				EC7B8DB627F38B1B00B76550 /* MemorizeApp.swift in Sources */,
-				EC34825A28019DD8000F1FF6 /* testViewListList.swift in Sources */,
-				ECC4EC6827FF46220085C741 /* testViewShapeList.swift in Sources */,
+				EC34825A28019DD8000F1FF6 /* TestViewListList.swift in Sources */,
+				ECC4EC6827FF46220085C741 /* TestViewShapeList.swift in Sources */,
 				ECE9E55328259C2A0051BEF3 /* TestGeometryReader.swift in Sources */,
 				EC674F8428086CF300D269AC /* TestNavigationView.swift in Sources */,
 				EC674F822808135300D269AC /* TestList.swift in Sources */,
 				EC6A793028495E72004A0782 /* TestKingFisher.swift in Sources */,
-				ECFD39E827FCB74A00D377F0 /* testViewList.swift in Sources */,
 				EC4776C22830CD0C00E3AB4A /* Cardify.swift in Sources */,
-				EC34825F2801AADB000F1FF6 /* emptytest.swift in Sources */,
+				EC34825F2801AADB000F1FF6 /* TestEmptyTest.swift in Sources */,
 				EC8B4C46281ED52100EA0E2C /* TestOpenSettings.swift in Sources */,
 				EC742C8728113E630007018C /* TestAlert.swift in Sources */,
 				EC4776BC282FAB5000E3AB4A /* TestViewBuilder.swift in Sources */,

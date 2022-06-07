@@ -1,5 +1,5 @@
 //
-//  testViewShapeList.swift
+//  TestViewShapeList.swift
 //  Memorize
 //
 //  Created by Vitaly Gromov on 4/7/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct testViewShapeList: View {
+struct TestViewShapeList: View {
     var body: some View {
         ScrollView {
             VStack{
@@ -64,7 +64,7 @@ struct ItemShape: View {
 
 struct testViewShapeList_Previews: PreviewProvider {
     static var previews: some View {
-        testViewShapeList()
+        TestViewShapeList()
     }
 }
 
