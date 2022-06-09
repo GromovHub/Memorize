@@ -10,7 +10,7 @@ import Foundation
 struct TestTemp {
     
     init() {
-       aboutCondition()
+       aboutCondition2()
     }
     
     private func asyncHello() {
@@ -136,5 +136,21 @@ struct TestTemp {
             print("false")
         }
         
+        let z = arg>10 ? true : false
+        print("z -> \(z)")
+        
+    }
+    
+    private func aboutCondition2(arg: Int = 25) -> Bool {
+        let result : Bool = arg < 18 ? {
+            print("<18")
+            return false
+        }() :
+        {
+            print(">18")
+            return true
+        }()
+        
+        return result
     }
 }
