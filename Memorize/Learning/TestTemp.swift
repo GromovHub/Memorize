@@ -10,7 +10,7 @@ import Foundation
 struct TestTemp {
     
     init() {
-       aboutLoop()
+       aboutCondition()
     }
     
     private func asyncHello() {
@@ -72,7 +72,7 @@ struct TestTemp {
         }
     }
     
-    enum Weekdays {
+    enum Weekdays: Comparable {
         case Monday, Tuesday, Wednesday
         case Thursday
         case Friday
@@ -110,5 +110,31 @@ struct TestTemp {
         }
     }
     }
+    }
+    
+    private func aboutCondition(arg: Int = 11) {
+        var flag: Bool{
+            if arg > 10 {
+                return true
+            } else {
+                return false
+            }
+        }
+        
+        if flag {
+            print("work")
+        }
+        
+        let x = "hello"
+        if !x.isEmpty {
+            print("not empty")
+        }
+        
+        if Weekdays.Sunday > Weekdays.Monday {
+            print("true")
+        } else {
+            print("false")
+        }
+        
     }
 }
