@@ -10,7 +10,7 @@ import Foundation
 struct TestTemp {
     
     init() {
-       aboutCondition2()
+       FizzBuzz()
     }
     
     private func asyncHello() {
@@ -110,6 +110,10 @@ struct TestTemp {
         }
     }
     }
+        
+        for i in 0...3 {
+            print("i -> \(i)")
+        }
     }
     
     private func aboutCondition(arg: Int = 11) {
@@ -152,5 +156,19 @@ struct TestTemp {
         }()
         
         return result
+    }
+    
+    private func FizzBuzz(arg: Int = 100) {
+        for i in 1...arg {
+            if i.isMultiple(of: 3) && i.isMultiple(of: 5) {
+                print("\(i) FizzBuzz")
+            } else if i.isMultiple(of: 3) {
+                print("\(i) Fizz")
+            } else if i.isMultiple(of: 5) {
+                print("\(i) Buzz")
+            } else {
+                print(i)
+            }
+        }
     }
 }
