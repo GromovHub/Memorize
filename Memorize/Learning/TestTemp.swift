@@ -10,7 +10,7 @@ import Foundation
 struct TestTemp {
     
     init() {
-       FizzBuzz()
+        aboutPythagorean(a: aboutTupleReturn().retArg1, b: aboutTupleReturn().retArg2)
     }
     
     private func asyncHello() {
@@ -171,4 +171,22 @@ struct TestTemp {
             }
         }
     }
+    
+    private func aboutSqrt(arg: Double = 16) {
+        print(sqrt(arg))
+    }
+    
+    private func aboutStringCompareSort(arg1: String = "abc", arg2: String = "cab") {
+        print(arg1.sorted() == arg2.sorted())
+    }
+    
+    private func aboutPythagorean(a: Double = 3, b: Double = 5) {
+        let c = sqrt(a * a + b * b)
+        print("hypotenuse -> \(c)")
+    }
+    
+    private func aboutTupleReturn() -> (retArg1: Double, retArg2: Double){
+        return (retArg1: 3, retArg2: 4)
+    }
+    
 }

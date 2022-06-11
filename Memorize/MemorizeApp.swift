@@ -27,7 +27,7 @@ struct MemorizeApp: App {
 //            TestAnimation2()
 //            TestKingFisher()
 //            TestCelFah()
-              TestVariadic()
+            TestVariadic()
 //            TestOpenSettings()
 //            TestJSON()
 //            TestNavigationLink()
