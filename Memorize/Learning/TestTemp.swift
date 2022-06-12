@@ -10,7 +10,13 @@ import Foundation
 struct TestTemp {
     
     init() {
-        aboutPythagorean(a: aboutTupleReturn().retArg1, b: aboutTupleReturn().retArg2)
+        do {
+            try mySqrt1()
+        } catch MyErrors.outOfBounds {
+            print("out of bounds")
+        } catch {
+            print("smth went wrong")
+        }
     }
     
     private func asyncHello() {
@@ -189,4 +195,42 @@ struct TestTemp {
         return (retArg1: 3, retArg2: 4)
     }
     
+    private func aboutCapacity() {
+        var arr = [1,2,3,4,5]
+        print(arr)
+        arr.removeAll(keepingCapacity: false)
+        print(arr.count)
+    }
+    
+    enum MyErrors: Error {
+        case short, obvious
+        case outOfBounds
+    }
+    
+    private func aboutThrows(arg: Int = 10) throws {
+        if arg < 10 {
+            throw MyErrors.short
+        } else if arg > 10{
+            throw MyErrors.obvious
+        } else {
+            print("great")
+        }
+     }
+    
+    // without decimals
+    private func mySqrt1(arg: Int = 7) throws {
+        if arg < 1 && arg > 10_000 {
+            throw MyErrors.outOfBounds
+        } else if arg == 1 {
+            print("The square root of 1 is 1")
+        } else {
+            var i = 1
+            var result = 1
+            while result <= arg {
+                i+=1
+                result = i * i
+            }
+            print("The square root of \(arg) is \(i - 1)")
+        }
+    }
 }
