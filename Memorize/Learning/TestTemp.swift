@@ -10,13 +10,7 @@ import Foundation
 struct TestTemp {
     
     init() {
-        do {
-            try mySqrt1()
-        } catch MyErrors.outOfBounds {
-            print("out of bounds")
-        } catch {
-            print("smth went wrong")
-        }
+        aboutCompactClosures()
     }
     
     private func asyncHello() {
@@ -44,7 +38,7 @@ struct TestTemp {
             1 : "Vitaly",
             2 : "Gromov"
         ]
-//        print(dict[1])
+        //        print(dict[1])
         print(dict[2, default: "doesn't exist"])
         print(dict[3] ?? "nothing")
     }
@@ -215,7 +209,7 @@ struct TestTemp {
         } else {
             print("great")
         }
-     }
+    }
     
     // without decimals
     private func mySqrt1(arg: Int = 7) throws {
@@ -233,4 +227,27 @@ struct TestTemp {
             print("The square root of \(arg) is \(i - 1)")
         }
     }
+    
+    
+    //    Filter out any numbers that are even
+    //    Sort the array in ascending order
+    //    Map them to strings in the format “7 is a lucky number”
+    //    Print the resulting array, one item per line
+    private func aboutClosures() {
+        let luckyNumbers = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]
+        let even = luckyNumbers.filter { $0 % 2 != 0 ? true : false }
+        let sorted = even.sorted()
+        let mappedToString = sorted.map { "\($0) is a lucky number" }
+        for i in mappedToString.indices {
+            print(mappedToString[i])
+        }
+    }
+    private func aboutCompactClosures(arg: [Int] = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]) {
+        arg
+            .filter { $0 % 2 != 0 ? true : false }
+            .sorted()
+            .map { "\($0) is a lucky number" }
+            .forEach { print($0) }
+    }
+        
 }
