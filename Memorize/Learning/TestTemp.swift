@@ -10,7 +10,7 @@ import Foundation
 struct TestTemp {
     
     init() {
-        aboutCompactClosures()
+        aboutCompactSort()
     }
     
     private func asyncHello() {
@@ -249,5 +249,30 @@ struct TestTemp {
             .map { "\($0) is a lucky number" }
             .forEach { print($0) }
     }
-        
+    
+    private func aboutSort() {
+        //let luckyNumbers = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]
+        let luckyNumbers2 = [5, -2, 23, 7, 87, -42, 509]
+        //let luckyNumbers3 = [150,-12,1,4,6,0,-300,12,5,7,3,11,0]
+        let arr2 = luckyNumbers2.sorted { i, j in
+                if i == 7 {
+                    return true
+                } else if j == 7 {
+                    return false
+                } else if i < j {
+                    return true
+                } else {
+                    return false
+                }
+        }
+        print(arr2)
+    }
+    private func aboutCompactSort() {
+        let luckyNumbers2 = [5, -2, 23, 7, 87, -42, 509]
+        print(luckyNumbers2.sorted { $0 == 7 ? true :
+                                        $1 == 7 ? false :
+                                            $0 < $1 ? true :
+                                                        false })
+        // awesome
+    }
 }
