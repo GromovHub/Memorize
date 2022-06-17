@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EC063409283A9493003FEFDE /* TestColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC063408283A9493003FEFDE /* TestColor.swift */; };
+		EC0E59D8285CF39200A9D7D1 /* SPAlert in Frameworks */ = {isa = PBXBuildFile; productRef = EC0E59D7285CF39200A9D7D1 /* SPAlert */; };
+		EC0E59DA285CF3BD00A9D7D1 /* TestSPAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E59D9285CF3BD00A9D7D1 /* TestSPAlert.swift */; };
+		EC0E59DC285CF3F800A9D7D1 /* TestAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E59DB285CF3F800A9D7D1 /* TestAlgorithms.swift */; };
 		EC34825A28019DD8000F1FF6 /* TestViewListList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825928019DD8000F1FF6 /* TestViewListList.swift */; };
 		EC34825C28019FED000F1FF6 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825B28019FED000F1FF6 /* MemoryGame.swift */; };
 		EC34825F2801AADB000F1FF6 /* TestEmptyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825E2801AADB000F1FF6 /* TestEmptyTest.swift */; };
@@ -61,6 +64,8 @@
 
 /* Begin PBXFileReference section */
 		EC063408283A9493003FEFDE /* TestColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColor.swift; sourceTree = "<group>"; };
+		EC0E59D9285CF3BD00A9D7D1 /* TestSPAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSPAlert.swift; sourceTree = "<group>"; };
+		EC0E59DB285CF3F800A9D7D1 /* TestAlgorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAlgorithms.swift; sourceTree = "<group>"; };
 		EC34825928019DD8000F1FF6 /* TestViewListList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewListList.swift; sourceTree = "<group>"; };
 		EC34825B28019FED000F1FF6 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = SOURCE_ROOT; };
 		EC34825E2801AADB000F1FF6 /* TestEmptyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEmptyTest.swift; sourceTree = "<group>"; };
@@ -117,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC0E59D8285CF39200A9D7D1 /* SPAlert in Frameworks */,
 				EC6A792E28495E4B004A0782 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,8 +133,10 @@
 		EC34825D2801A011000F1FF6 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				EC0E59DB285CF3F800A9D7D1 /* TestAlgorithms.swift */,
 				ECE9E55228259C2A0051BEF3 /* TestGeometryReader.swift */,
 				EC34825928019DD8000F1FF6 /* TestViewListList.swift */,
+				EC0E59D9285CF3BD00A9D7D1 /* TestSPAlert.swift */,
 				ECE9E556282CC8860051BEF3 /* TestImage.swift */,
 				EC8B4C472821A19B00EA0E2C /* TestUserDefaults.swift */,
 				EC6A792F28495E72004A0782 /* TestKingFisher.swift */,
@@ -230,6 +238,7 @@
 			name = Memorize;
 			packageProductDependencies = (
 				EC6A792D28495E4B004A0782 /* Kingfisher */,
+				EC0E59D7285CF39200A9D7D1 /* SPAlert */,
 			);
 			productName = Memorize;
 			productReference = EC7B8DB227F38B1B00B76550 /* Memorize.app */;
@@ -261,6 +270,7 @@
 			mainGroup = EC7B8DA927F38B1B00B76550;
 			packageReferences = (
 				EC6A792C28495E4A004A0782 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				EC0E59D6285CF39200A9D7D1 /* XCRemoteSwiftPackageReference "SPAlert" */,
 			);
 			productRefGroup = EC7B8DB327F38B1B00B76550 /* Products */;
 			projectDirPath = "";
@@ -311,6 +321,7 @@
 				EC4776C22830CD0C00E3AB4A /* Cardify.swift in Sources */,
 				EC34825F2801AADB000F1FF6 /* TestEmptyTest.swift in Sources */,
 				EC8B4C46281ED52100EA0E2C /* TestOpenSettings.swift in Sources */,
+				EC0E59DA285CF3BD00A9D7D1 /* TestSPAlert.swift in Sources */,
 				EC742C8728113E630007018C /* TestAlert.swift in Sources */,
 				EC4776BC282FAB5000E3AB4A /* TestViewBuilder.swift in Sources */,
 				EC4E95AB284A1BD80025FC0E /* TestCelFah.swift in Sources */,
@@ -318,6 +329,7 @@
 				EC8B4C482821A19B00EA0E2C /* TestUserDefaults.swift in Sources */,
 				EC674F76280723C900D269AC /* TestButtom.swift in Sources */,
 				EC61C7A22815837100A78826 /* TestModifiers.swift in Sources */,
+				EC0E59DC285CF3F800A9D7D1 /* TestAlgorithms.swift in Sources */,
 				EC58AAD5284E7AD200091778 /* TestTemp.swift in Sources */,
 				ECE9E555282630370051BEF3 /* AspectVGrid.swift in Sources */,
 				EC61C7A6281596E100A78826 /* TestWrappedModel.swift in Sources */,
@@ -539,6 +551,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		EC0E59D6285CF39200A9D7D1 /* XCRemoteSwiftPackageReference "SPAlert" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ivanvorobei/SPAlert";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 		EC6A792C28495E4A004A0782 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher";
@@ -550,6 +570,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		EC0E59D7285CF39200A9D7D1 /* SPAlert */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC0E59D6285CF39200A9D7D1 /* XCRemoteSwiftPackageReference "SPAlert" */;
+			productName = SPAlert;
+		};
 		EC6A792D28495E4B004A0782 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = EC6A792C28495E4A004A0782 /* XCRemoteSwiftPackageReference "Kingfisher" */;

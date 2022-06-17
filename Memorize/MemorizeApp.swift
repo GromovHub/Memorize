@@ -15,19 +15,21 @@ struct MemorizeApp: App {
 //  MARK: - Learning/Tests
 //    let game1: TestModel1 = TestModel1()
 //    let wrapMod = WrappedModel()
-    let testTemp = TestTemp()
+//    let testTemp = TestTemp()
+    let testAlgorithms = TestAlgorithms()
     
     var body: some Scene {
         WindowGroup {
             
 //            EmojiMemoryGameView(game: game)
             
-//  MARK: - Learning/Tests
+//  MARK: - Learning/Tests - Views
 //            TestImage()
 //            TestAnimation2()
 //            TestKingFisher()
 //            TestCelFah()
-            TestVariadic()
+//            TestVariadic()
+            TestSPAlert()
 //            TestOpenSettings()
 //            TestJSON()
 //            TestNavigationLink()
