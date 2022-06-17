@@ -10,7 +10,7 @@ import Foundation
 struct TestTemp {
     
     init() {
-        aboutCompactSort()
+        aboutPythagorean()
     }
     
     private func asyncHello() {
