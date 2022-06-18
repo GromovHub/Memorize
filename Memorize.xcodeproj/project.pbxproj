@@ -134,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				EC0E59DB285CF3F800A9D7D1 /* TestAlgorithms.swift */,
+				EC58AAD4284E7AD200091778 /* TestTemp.swift */,
 				ECE9E55228259C2A0051BEF3 /* TestGeometryReader.swift */,
 				EC34825928019DD8000F1FF6 /* TestViewListList.swift */,
 				EC0E59D9285CF3BD00A9D7D1 /* TestSPAlert.swift */,
@@ -141,7 +142,6 @@
 				EC8B4C472821A19B00EA0E2C /* TestUserDefaults.swift */,
 				EC6A792F28495E72004A0782 /* TestKingFisher.swift */,
 				EC8B4C4928223B7000EA0E2C /* TestJSON.swift */,
-				EC58AAD4284E7AD200091778 /* TestTemp.swift */,
 				ECC4EC6727FF46220085C741 /* TestViewShapeList.swift */,
 				EC674F7B280758D800D269AC /* TestPicker.swift */,
 				EC674F712805A29400D269AC /* TestToggle.swift */,

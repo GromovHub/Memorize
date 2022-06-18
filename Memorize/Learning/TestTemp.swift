@@ -10,7 +10,12 @@ import Foundation
 struct TestTemp {
     
     init() {
-        aboutPythagorean()
+        var inst = AboutStruct(x: 5, y: "hello")
+        inst.addString(arg: "world")
+        var x: Void {
+            print("void")
+        }
+        x
     }
     
     private func asyncHello() {
@@ -275,4 +280,16 @@ struct TestTemp {
                                                         false })
         // awesome
     }
+    
+    private struct AboutStruct {
+        var x: Int
+        let x1: Int = 100
+        var y: String
+        mutating func addString(arg: String) {
+            y += arg
+            print(y)
+        }
+    }
+    
+    
 }

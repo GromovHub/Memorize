@@ -15,7 +15,7 @@ struct MemorizeApp: App {
 //  MARK: - Learning/Tests
 //    let game1: TestModel1 = TestModel1()
 //    let wrapMod = WrappedModel()
-//    let testTemp = TestTemp()
+    let testTemp = TestTemp()
     let testAlgorithms = TestAlgorithms()
     
     var body: some Scene {
