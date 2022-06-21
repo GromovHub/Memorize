@@ -64,7 +64,37 @@ func binarySearch<T: Comparable>(_ a: [T], key: T, range: Range<Int>) -> Int? {
     }
 }
 
+func countOccurrences<T: Comparable>(of key: T, in array: [T]) -> Int {
+  var leftBoundary: Int {
+    var low = 0
+    var high = array.count
+    while low < high {
+      let midIndex = low + (high - low)/2
+      if a[midIndex] < key {
+        low = midIndex + 1
+      } else {
+        high = midIndex
+      }
+    }
+    return low
+  }
 
+  var rightBoundary: Int {
+    var low = 0
+    var high = array.count
+    while low < high {
+      let midIndex = low + (high - low)/2
+      if a[midIndex] > key {
+        high = midIndex
+      } else {
+        low = midIndex + 1
+      }
+    }
+    return low
+  }
+
+  return rightBoundary - leftBoundary
+}
 
 
 }
