@@ -116,5 +116,13 @@ func maximum<T: Comparable>(_ array: [T]) -> T? {
   }
   return maximum
 }
-
+func kthLargest(a: [Int], k: Int) -> Int? {
+  let len = a.count
+  if k > 0 && k <= len {
+    let sorted = a.sorted()
+    return sorted[len - k]
+  } else {
+    return nil
+  }
+}
 }
