@@ -125,4 +125,19 @@ func kthLargest(a: [Int], k: Int) -> Int? {
     return nil
   }
 }
+
+func select<T>(from a: [T], count k: Int) -> [T] {
+  var a = a
+  for i in 0..<k {
+    let r = random(min: i, max: a.count - 1)
+    if i != r {
+      swap(&a[i], &a[r])
+    }
+  }
+  return Array(a[0..<k])
+}
+
+
+
+
 }
