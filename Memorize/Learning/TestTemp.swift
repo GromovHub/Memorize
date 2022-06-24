@@ -10,12 +10,7 @@ import Foundation
 struct TestTemp {
     
     init() {
-        var inst = AboutStruct(x: 5, y: "hello")
-        inst.addString(arg: "world")
-        var x: Void {
-            print("void")
-        }
-        x
+        aboutGetSet()
     }
     
     private func asyncHello() {
@@ -43,7 +38,7 @@ struct TestTemp {
             1 : "Vitaly",
             2 : "Gromov"
         ]
-        //        print(dict[1])
+        // print(dict[1])
         print(dict[2, default: "doesn't exist"])
         print(dict[3] ?? "nothing")
     }
@@ -115,7 +110,6 @@ struct TestTemp {
         }
     }
     }
-        
         for i in 0...3 {
             print("i -> \(i)")
         }
@@ -233,7 +227,6 @@ struct TestTemp {
         }
     }
     
-    
     //    Filter out any numbers that are even
     //    Sort the array in ascending order
     //    Map them to strings in the format “7 is a lucky number”
@@ -247,6 +240,7 @@ struct TestTemp {
             print(mappedToString[i])
         }
     }
+    
     private func aboutCompactClosures(arg: [Int] = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]) {
         arg
             .filter { $0 % 2 != 0 ? true : false }
@@ -260,24 +254,25 @@ struct TestTemp {
         let luckyNumbers2 = [5, -2, 23, 7, 87, -42, 509]
         //let luckyNumbers3 = [150,-12,1,4,6,0,-300,12,5,7,3,11,0]
         let arr2 = luckyNumbers2.sorted { i, j in
-                if i == 7 {
-                    return true
-                } else if j == 7 {
-                    return false
-                } else if i < j {
-                    return true
-                } else {
-                    return false
-                }
+            if i == 7 {
+                return true
+            } else if j == 7 {
+                return false
+            } else if i < j {
+                return true
+            } else {
+                return false
+            }
         }
         print(arr2)
     }
+    
     private func aboutCompactSort() {
         let luckyNumbers2 = [5, -2, 23, 7, 87, -42, 509]
         print(luckyNumbers2.sorted { $0 == 7 ? true :
-                                        $1 == 7 ? false :
-                                            $0 < $1 ? true :
-                                                        false })
+            $1 == 7 ? false :
+            $0 < $1 ? true :
+            false })
         // awesome
     }
     
@@ -291,5 +286,26 @@ struct TestTemp {
         }
     }
     
-    
+    private func aboutGetSet() {
+        var x: Int = 0 {
+            didSet {
+                print("x did set to \(x)")
+                print("old x is \(oldValue)")
+            }
+            willSet {
+                print("x will set to \(newValue)")
+            }
+        }
+        print(x = 100)
+        var y: Int {
+            set(newY) {
+                print("new y is \(newY)")
+            }
+            get {
+                Int.random(in: 1...1000)
+            }
+        }
+        print(y = 200)
+        print("y is \(y)")
+    }
 }
