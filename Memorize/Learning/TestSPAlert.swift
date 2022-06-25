@@ -39,6 +39,6 @@ struct TestSPAlert: View {
 
 struct TestSPAlert_Previews: PreviewProvider {
     static var previews: some View {
-        TestSPAlert()
+        TestSPAlert().preferredColorScheme(.dark)
     }
 }

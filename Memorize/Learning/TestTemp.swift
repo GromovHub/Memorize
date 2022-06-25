@@ -10,7 +10,7 @@ import Foundation
 struct TestTemp {
     
     init() {
-        aboutGetSet()
+        aboutAccess()
     }
     
     private func asyncHello() {
@@ -308,4 +308,27 @@ struct TestTemp {
         print(y = 200)
         print("y is \(y)")
     }
+    struct AboutStatic {
+        static let one = "one"
+        static var two = "two"
+    }
+    struct AboutAccess {
+        private(set) var abx: Int
+        private var aby: Int
+        static var abz: Int = 5
+        
+        init(x: Int, y: Int) {
+            abx.self = x
+            aby.self = y
+        }
+    }
+    private func aboutAccess() {
+        let x = AboutAccess(x: 1, y: 2)
+        print(x.abx)
+        print(AboutAccess.abz)
+        print(AboutStatic.one)
+        AboutStatic.two = "twos"
+        print(AboutStatic.two)
+    }
+    
 }
