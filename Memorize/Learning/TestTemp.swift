@@ -10,7 +10,7 @@ import Foundation
 struct TestTemp {
     
     init() {
-        aboutAccess()
+        aboutCheck6()
     }
     
     private func asyncHello() {
@@ -331,4 +331,9 @@ struct TestTemp {
         print(AboutStatic.two)
     }
     
+    private func aboutCheck6() {
+        var x = AboutCar(model: "Ford", numberOfSeats: 4)
+        print(x.changeGear(up: true, down: true))
+        print(x.currentGear)
+    }
 }

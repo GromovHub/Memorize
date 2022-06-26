@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0CB3EF528681A4400BBBF5A /* TestCheckpoint6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CB3EF428681A4400BBBF5A /* TestCheckpoint6.swift */; };
 		EC063409283A9493003FEFDE /* TestColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC063408283A9493003FEFDE /* TestColor.swift */; };
 		EC0E59D8285CF39200A9D7D1 /* SPAlert in Frameworks */ = {isa = PBXBuildFile; productRef = EC0E59D7285CF39200A9D7D1 /* SPAlert */; };
 		EC0E59DA285CF3BD00A9D7D1 /* TestSPAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E59D9285CF3BD00A9D7D1 /* TestSPAlert.swift */; };
@@ -63,6 +64,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0CB3EF428681A4400BBBF5A /* TestCheckpoint6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCheckpoint6.swift; sourceTree = "<group>"; };
 		EC063408283A9493003FEFDE /* TestColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColor.swift; sourceTree = "<group>"; };
 		EC0E59D9285CF3BD00A9D7D1 /* TestSPAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSPAlert.swift; sourceTree = "<group>"; };
 		EC0E59DB285CF3F800A9D7D1 /* TestAlgorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAlgorithms.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				EC6A792F28495E72004A0782 /* TestKingFisher.swift */,
 				EC8B4C4928223B7000EA0E2C /* TestJSON.swift */,
 				ECC4EC6727FF46220085C741 /* TestViewShapeList.swift */,
+				D0CB3EF428681A4400BBBF5A /* TestCheckpoint6.swift */,
 				EC674F7B280758D800D269AC /* TestPicker.swift */,
 				EC674F712805A29400D269AC /* TestToggle.swift */,
 				EC674F7F28080E6C00D269AC /* TestOnTapGesture.swift */,
@@ -310,6 +313,7 @@
 				EC8B4C4C282463BF00EA0E2C /* TestPriority.swift in Sources */,
 				EC8B4C44281D5C6200EA0E2C /* TestNavigationView2.swift in Sources */,
 				EC674F7C280758D800D269AC /* TestPicker.swift in Sources */,
+				D0CB3EF528681A4400BBBF5A /* TestCheckpoint6.swift in Sources */,
 				EC674F722805A29400D269AC /* TestToggle.swift in Sources */,
 				EC7B8DB627F38B1B00B76550 /* MemorizeApp.swift in Sources */,
 				EC34825A28019DD8000F1FF6 /* TestViewListList.swift in Sources */,
