@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D043F6E428686864002CA7C0 /* UnsplashSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D043F6E328686864002CA7C0 /* UnsplashSwiftUI */; };
 		D0CB3EF528681A4400BBBF5A /* TestCheckpoint6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CB3EF428681A4400BBBF5A /* TestCheckpoint6.swift */; };
+		D0CB3EF828685B0400BBBF5A /* UnsplashPhotoPicker in Frameworks */ = {isa = PBXBuildFile; productRef = D0CB3EF728685B0400BBBF5A /* UnsplashPhotoPicker */; };
+		D0CB3EFA28685B2A00BBBF5A /* TestAPIUnsplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CB3EF928685B2A00BBBF5A /* TestAPIUnsplash.swift */; };
 		EC063409283A9493003FEFDE /* TestColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC063408283A9493003FEFDE /* TestColor.swift */; };
 		EC0E59D8285CF39200A9D7D1 /* SPAlert in Frameworks */ = {isa = PBXBuildFile; productRef = EC0E59D7285CF39200A9D7D1 /* SPAlert */; };
 		EC0E59DA285CF3BD00A9D7D1 /* TestSPAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E59D9285CF3BD00A9D7D1 /* TestSPAlert.swift */; };
@@ -65,6 +68,7 @@
 
 /* Begin PBXFileReference section */
 		D0CB3EF428681A4400BBBF5A /* TestCheckpoint6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCheckpoint6.swift; sourceTree = "<group>"; };
+		D0CB3EF928685B2A00BBBF5A /* TestAPIUnsplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAPIUnsplash.swift; sourceTree = "<group>"; };
 		EC063408283A9493003FEFDE /* TestColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColor.swift; sourceTree = "<group>"; };
 		EC0E59D9285CF3BD00A9D7D1 /* TestSPAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSPAlert.swift; sourceTree = "<group>"; };
 		EC0E59DB285CF3F800A9D7D1 /* TestAlgorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAlgorithms.swift; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D043F6E428686864002CA7C0 /* UnsplashSwiftUI in Frameworks */,
+				D0CB3EF828685B0400BBBF5A /* UnsplashPhotoPicker in Frameworks */,
 				EC0E59D8285CF39200A9D7D1 /* SPAlert in Frameworks */,
 				EC6A792E28495E4B004A0782 /* Kingfisher in Frameworks */,
 			);
@@ -137,6 +143,7 @@
 			children = (
 				EC0E59DB285CF3F800A9D7D1 /* TestAlgorithms.swift */,
 				EC58AAD4284E7AD200091778 /* TestTemp.swift */,
+				D0CB3EF928685B2A00BBBF5A /* TestAPIUnsplash.swift */,
 				ECE9E55228259C2A0051BEF3 /* TestGeometryReader.swift */,
 				EC34825928019DD8000F1FF6 /* TestViewListList.swift */,
 				EC0E59D9285CF3BD00A9D7D1 /* TestSPAlert.swift */,
@@ -242,6 +249,8 @@
 			packageProductDependencies = (
 				EC6A792D28495E4B004A0782 /* Kingfisher */,
 				EC0E59D7285CF39200A9D7D1 /* SPAlert */,
+				D0CB3EF728685B0400BBBF5A /* UnsplashPhotoPicker */,
+				D043F6E328686864002CA7C0 /* UnsplashSwiftUI */,
 			);
 			productName = Memorize;
 			productReference = EC7B8DB227F38B1B00B76550 /* Memorize.app */;
@@ -274,6 +283,8 @@
 			packageReferences = (
 				EC6A792C28495E4A004A0782 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				EC0E59D6285CF39200A9D7D1 /* XCRemoteSwiftPackageReference "SPAlert" */,
+				D0CB3EF628685B0400BBBF5A /* XCRemoteSwiftPackageReference "unsplash-photopicker-ios" */,
+				D043F6E228686864002CA7C0 /* XCRemoteSwiftPackageReference "UnsplashSwiftUI" */,
 			);
 			productRefGroup = EC7B8DB327F38B1B00B76550 /* Products */;
 			projectDirPath = "";
@@ -301,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CB3EFA28685B2A00BBBF5A /* TestAPIUnsplash.swift in Sources */,
 				ECB761C82804B61C00BFA45D /* TestGradient.swift in Sources */,
 				EC063409283A9493003FEFDE /* TestColor.swift in Sources */,
 				EC51CE6F284939AD00C1270C /* TestComparison.swift in Sources */,
@@ -498,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -527,7 +539,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -555,6 +567,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D043F6E228686864002CA7C0 /* XCRemoteSwiftPackageReference "UnsplashSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ArnavMotwani/UnsplashSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		D0CB3EF628685B0400BBBF5A /* XCRemoteSwiftPackageReference "unsplash-photopicker-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/unsplash/unsplash-photopicker-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		EC0E59D6285CF39200A9D7D1 /* XCRemoteSwiftPackageReference "SPAlert" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ivanvorobei/SPAlert";
@@ -574,6 +602,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D043F6E328686864002CA7C0 /* UnsplashSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D043F6E228686864002CA7C0 /* XCRemoteSwiftPackageReference "UnsplashSwiftUI" */;
+			productName = UnsplashSwiftUI;
+		};
+		D0CB3EF728685B0400BBBF5A /* UnsplashPhotoPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0CB3EF628685B0400BBBF5A /* XCRemoteSwiftPackageReference "unsplash-photopicker-ios" */;
+			productName = UnsplashPhotoPicker;
+		};
 		EC0E59D7285CF39200A9D7D1 /* SPAlert */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = EC0E59D6285CF39200A9D7D1 /* XCRemoteSwiftPackageReference "SPAlert" */;
