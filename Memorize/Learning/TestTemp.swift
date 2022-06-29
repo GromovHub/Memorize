@@ -1,3 +1,4 @@
+
 //
 //  TestTemp.swift
 //  Memorize
@@ -7,10 +8,13 @@
 
 import Foundation
 
+let deleteMeBeforeCommit = TestTemp()
+
 struct TestTemp {
     
+    // insert to test
     init() {
-        aboutCheck6()
+        aboutClasses()
     }
     
     private func asyncHello() {
@@ -99,17 +103,17 @@ struct TestTemp {
     }
     
     private func aboutLoop() {
-    outer: for i in 0...10 {
-        if i == 3 {
-            continue
+        outer: for i in 0...10 {
+            if i == 3 {
+                continue
+            }
+            inner: for j in 0...10 {
+                print(i+j, terminator: " - ")
+                if i == 5 {
+                    break outer
+                }
+            }
         }
-    inner: for j in 0...10 {
-        print(i+j, terminator: " - ")
-        if i == 5 {
-            break outer
-        }
-    }
-    }
         for i in 0...3 {
             print("i -> \(i)")
         }
@@ -270,9 +274,9 @@ struct TestTemp {
     private func aboutCompactSort() {
         let luckyNumbers2 = [5, -2, 23, 7, 87, -42, 509]
         print(luckyNumbers2.sorted { $0 == 7 ? true :
-            $1 == 7 ? false :
-            $0 < $1 ? true :
-            false })
+                $1 == 7 ? false :
+                $0 < $1 ? true :
+                false })
         // awesome
     }
     
@@ -331,10 +335,45 @@ struct TestTemp {
         print(AboutStatic.two)
     }
     
-    private func aboutCheck6() {
-        var x = AboutCar(model: "Ford", numberOfSeats: 4)
-        print(x.changeGear(up: true, down: true))
-        print(x.currentGear)
+//    private func aboutCheck6() {
+//        var x = AboutCar(model: "Ford", numberOfSeats: 4)
+//        print(x.changeGear(up: true, down: true))
+//        print(x.currentGear)
+//    }
+    
+    private func aboutClasses() {
+        print("deleteme = new myclass")
+        var delleteMeBeforeCommit: MyClass1? = MyClass1() 
+        
+        print("x = deleteme")
+        var x: MyClass1? = delleteMeBeforeCommit
+        
+        print("deleteme = nil but x still = new myclass")
+        delleteMeBeforeCommit = nil
+        
+        print("deleteme = new myclass")
+        delleteMeBeforeCommit = MyClass1()
+        
+        sleep(1)
+        print("""
+        
+        after sleep
+        """)
     }
     
+}
+
+// MARK: - Classes
+
+class MyClass1 {
+    let id: UUID
+    init() {
+        id = UUID()
+        print("MyClass1 has been created")
+        print(id)
+    }
+    deinit {
+        print ("MyClass1 has been destroyed")
+        print(id)
+    }
 }
