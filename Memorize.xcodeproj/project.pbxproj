@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D038E3B3286E065D000BBFB3 /* MemorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038E3B2286E065D000BBFB3 /* MemorizeTests.swift */; };
 		D043F6E428686864002CA7C0 /* UnsplashSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D043F6E328686864002CA7C0 /* UnsplashSwiftUI */; };
 		D0CB3EF528681A4400BBBF5A /* TestCheckpoint6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CB3EF428681A4400BBBF5A /* TestCheckpoint6.swift */; };
 		D0CB3EF828685B0400BBBF5A /* UnsplashPhotoPicker in Frameworks */ = {isa = PBXBuildFile; productRef = D0CB3EF728685B0400BBBF5A /* UnsplashPhotoPicker */; };
@@ -66,7 +67,19 @@
 		ECF1A87E284BCFD60064DDC8 /* TestVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF1A87D284BCFD60064DDC8 /* TestVariadic.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D038E3B4286E065D000BBFB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7B8DAA27F38B1B00B76550 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7B8DB127F38B1B00B76550;
+			remoteInfo = Memorize;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		D038E3B0286E065D000BBFB3 /* MemorizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D038E3B2286E065D000BBFB3 /* MemorizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeTests.swift; sourceTree = "<group>"; };
 		D0CB3EF428681A4400BBBF5A /* TestCheckpoint6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCheckpoint6.swift; sourceTree = "<group>"; };
 		D0CB3EF928685B2A00BBBF5A /* TestAPIUnsplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAPIUnsplash.swift; sourceTree = "<group>"; };
 		EC063408283A9493003FEFDE /* TestColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColor.swift; sourceTree = "<group>"; };
@@ -124,6 +137,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D038E3AD286E065D000BBFB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC7B8DAF27F38B1B00B76550 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,6 +158,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D038E3B1286E065D000BBFB3 /* MemorizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D038E3B2286E065D000BBFB3 /* MemorizeTests.swift */,
+			);
+			path = MemorizeTests;
+			sourceTree = "<group>";
+		};
 		EC34825D2801A011000F1FF6 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				EC7B8DB427F38B1B00B76550 /* Memorize */,
+				D038E3B1286E065D000BBFB3 /* MemorizeTests */,
 				EC7B8DB327F38B1B00B76550 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -201,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				EC7B8DB227F38B1B00B76550 /* Memorize.app */,
+				D038E3B0286E065D000BBFB3 /* MemorizeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,6 +263,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D038E3AF286E065D000BBFB3 /* MemorizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D038E3B8286E065D000BBFB3 /* Build configuration list for PBXNativeTarget "MemorizeTests" */;
+			buildPhases = (
+				D038E3AC286E065D000BBFB3 /* Sources */,
+				D038E3AD286E065D000BBFB3 /* Frameworks */,
+				D038E3AE286E065D000BBFB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D038E3B5286E065D000BBFB3 /* PBXTargetDependency */,
+			);
+			name = MemorizeTests;
+			productName = MemorizeTests;
+			productReference = D038E3B0286E065D000BBFB3 /* MemorizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EC7B8DB127F38B1B00B76550 /* Memorize */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC7B8DC027F38B1C00B76550 /* Build configuration list for PBXNativeTarget "Memorize" */;
@@ -263,9 +311,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					D038E3AF286E065D000BBFB3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EC7B8DB127F38B1B00B76550;
+					};
 					EC7B8DB127F38B1B00B76550 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -291,11 +343,19 @@
 			projectRoot = "";
 			targets = (
 				EC7B8DB127F38B1B00B76550 /* Memorize */,
+				D038E3AF286E065D000BBFB3 /* MemorizeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D038E3AE286E065D000BBFB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC7B8DB027F38B1B00B76550 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,6 +368,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D038E3AC286E065D000BBFB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D038E3B3286E065D000BBFB3 /* MemorizeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC7B8DAE27F38B1B00B76550 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,7 +436,53 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D038E3B5286E065D000BBFB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7B8DB127F38B1B00B76550 /* Memorize */;
+			targetProxy = D038E3B4286E065D000BBFB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		D038E3B6286E065D000BBFB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT525LAF69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.gromovitaly.MemorizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memorize.app/Memorize";
+			};
+			name = Debug;
+		};
+		D038E3B7286E065D000BBFB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT525LAF69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.gromovitaly.MemorizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memorize.app/Memorize";
+			};
+			name = Release;
+		};
 		EC7B8DBE27F38B1C00B76550 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -546,6 +660,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D038E3B8286E065D000BBFB3 /* Build configuration list for PBXNativeTarget "MemorizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D038E3B6286E065D000BBFB3 /* Debug */,
+				D038E3B7286E065D000BBFB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EC7B8DAD27F38B1B00B76550 /* Build configuration list for PBXProject "Memorize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -30,7 +30,7 @@ struct MemorizeApp: App {
 //            TestCelFah()
 //            TestVariadic()
 //            TestSPAlert()
-            TestAPIUnsplash()
+//            TestAPIUnsplash()
 //            TestOpenSettings()
 //            TestJSON()
 //            TestNavigationLink()
@@ -38,7 +38,7 @@ struct MemorizeApp: App {
 //            TestToggle(model: game1)
 //            TestButton()
 //            TestWrapped(wrappedModel: wrapMod)
-//            TestSheet()
+            TestSheet()
 //            TestNavigationView()
 //            TestNavigationView2()
             

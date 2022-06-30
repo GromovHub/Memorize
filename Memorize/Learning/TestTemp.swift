@@ -8,13 +8,11 @@
 
 import Foundation
 
-let deleteMeBeforeCommit = TestTemp()
-
 struct TestTemp {
     
     // insert to test
     init() {
-        aboutClasses()
+        aboutClasses2()
     }
     
     private func asyncHello() {
@@ -343,7 +341,7 @@ struct TestTemp {
     
     private func aboutClasses() {
         print("deleteme = new myclass")
-        var delleteMeBeforeCommit: MyClass1? = MyClass1() 
+        var delleteMeBeforeCommit: MyClass1? = MyClass1(value: 100)
         
         print("x = deleteme")
         var x: MyClass1? = delleteMeBeforeCommit
@@ -352,7 +350,7 @@ struct TestTemp {
         delleteMeBeforeCommit = nil
         
         print("deleteme = new myclass")
-        delleteMeBeforeCommit = MyClass1()
+        delleteMeBeforeCommit = MyClass1(value: 100)
         
         sleep(1)
         print("""
@@ -361,19 +359,41 @@ struct TestTemp {
         """)
     }
     
+     func aboutClasses2() {
+         MyClass1(value: 200).sayHelloFromMyClass1()
+         MyClass2(value: 300).sayHelloFromMyClass1()
+        
+    }
+    
 }
 
 // MARK: - Classes
 
 class MyClass1 {
+    var valueOfMyClass1: Int
     let id: UUID
-    init() {
+    init(value: Int) {
+        self.valueOfMyClass1 = value
         id = UUID()
-        print("MyClass1 has been created")
-        print(id)
+        print("MyClass1 has been created   \(id)")
     }
     deinit {
-        print ("MyClass1 has been destroyed")
-        print(id)
+        print ("MyClass1 has been destroyed \(id)")
+    }
+    
+    func sayHelloFromMyClass1() {
+        print("Hello from MyClass 1")
+    }
+}
+
+final class MyClass2: MyClass1 {
+//    init() {
+//        super.init(value: 500)
+//    }
+    func sayValue() {
+        print(valueOfMyClass1)
+    }
+    override func sayHelloFromMyClass1() {
+        print("Hello from MyClass 2")
     }
 }
