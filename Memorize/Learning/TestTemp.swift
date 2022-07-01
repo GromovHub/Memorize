@@ -12,7 +12,7 @@ struct TestTemp {
     
     // insert to test
     init() {
-        aboutClasses2()
+     ZOO()
     }
     
     private func asyncHello() {
@@ -344,7 +344,8 @@ struct TestTemp {
         var delleteMeBeforeCommit: MyClass1? = MyClass1(value: 100)
         
         print("x = deleteme")
-        var x: MyClass1? = delleteMeBeforeCommit
+        // x
+        var _: MyClass1? = delleteMeBeforeCommit
         
         print("deleteme = nil but x still = new myclass")
         delleteMeBeforeCommit = nil
@@ -359,10 +360,12 @@ struct TestTemp {
         """)
     }
     
-     func aboutClasses2() {
+     private func aboutClasses2() {
          MyClass1(value: 200).sayHelloFromMyClass1()
          MyClass2(value: 300).sayHelloFromMyClass1()
-        
+    }
+    private func aboutClasses3() {
+        print(MyClass3(valueForSuper: 100))
     }
     
 }
@@ -395,5 +398,18 @@ final class MyClass2: MyClass1 {
     }
     override func sayHelloFromMyClass1() {
         print("Hello from MyClass 2")
+    }
+    
+}
+
+class MyClass3: MyClass1 {
+    let id3: UUID
+    init(valueForSuper: Int) {
+        id3 = UUID()
+        super.init(value: valueForSuper)
+        print("MyClass3 has been created   \(id3)")
+    }
+    deinit {
+        print("MyClass3 has been destroyed \(id3)")
     }
 }
