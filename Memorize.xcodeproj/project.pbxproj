@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D038E3B3286E065D000BBFB3 /* MemorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038E3B2286E065D000BBFB3 /* MemorizeTests.swift */; };
 		EC34825C28019FED000F1FF6 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825B28019FED000F1FF6 /* MemoryGame.swift */; };
 		EC34826128020E12000F1FF6 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34826028020E12000F1FF6 /* EmojiMemoryGame.swift */; };
 		EC4776BA282EF22000E3AB4A /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776B9282EF22000E3AB4A /* Pie.swift */; };
@@ -31,7 +30,6 @@
 
 /* Begin PBXFileReference section */
 		D038E3B0286E065D000BBFB3 /* MemorizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D038E3B2286E065D000BBFB3 /* MemorizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeTests.swift; sourceTree = "<group>"; };
 		EC34825B28019FED000F1FF6 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = SOURCE_ROOT; };
 		EC34826028020E12000F1FF6 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		EC4776B9282EF22000E3AB4A /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
@@ -62,19 +60,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D038E3B1286E065D000BBFB3 /* MemorizeTests */ = {
-			isa = PBXGroup;
-			children = (
-				D038E3B2286E065D000BBFB3 /* MemorizeTests.swift */,
-			);
-			path = MemorizeTests;
-			sourceTree = "<group>";
-		};
 		EC7B8DA927F38B1B00B76550 = {
 			isa = PBXGroup;
 			children = (
 				EC7B8DB427F38B1B00B76550 /* Memorize */,
-				D038E3B1286E065D000BBFB3 /* MemorizeTests */,
 				EC7B8DB327F38B1B00B76550 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -216,7 +205,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D038E3B3286E065D000BBFB3 /* MemorizeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
