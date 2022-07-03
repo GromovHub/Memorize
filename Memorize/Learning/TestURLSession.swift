@@ -11,6 +11,21 @@ import SwiftUI
 
 struct TestURLSession: View {
     @State private var results = [Result]()
+    func loadData() async {
+        guard let url = URL(string: "https://itunes.apple.com/search?term=taylor+swift&entity=song")
+        else {
+            print("Invalid URL")
+            return
+        }
+        do {
+            let (data1, _) = try await URLSession.shared.data(from: url)
+            if let decoderResponse = try? JSONDecoder().decode(Response.self, from: data1) {
+                results = decoderResponse.results
+            }
+        } catch {
+            print("Invalid data")
+        }
+    }
     var body: some View {
         List(results, id: \.trackId) { item in
             VStack(alignment: .leading) {
@@ -19,11 +34,16 @@ struct TestURLSession: View {
                 Text(item.collectionName)
             }
         }
+        .task {
+            await loadData()
+        }
     }
 }
 struct TestURLSession_Previews: PreviewProvider {
     static var previews: some View {
         TestURLSession()
+            .preferredColorScheme(.light)
+            
     }
 }
 

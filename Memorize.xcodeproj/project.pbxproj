@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D008F25C28719346009FF9B5 /* deleteme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F25B28719346009FF9B5 /* deleteme.swift */; };
 		D008F291287193A0009FF9B5 /* TestCelFah.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F2612871939F009FF9B5 /* TestCelFah.swift */; };
 		D008F293287193A0009FF9B5 /* TestGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F2622871939F009FF9B5 /* TestGradient.swift */; };
 		D008F295287193A0009FF9B5 /* TestViewListList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F2632871939F009FF9B5 /* TestViewListList.swift */; };
@@ -61,6 +60,8 @@
 		D008F2F92871940C009FF9B5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D008F2F82871940C009FF9B5 /* Kingfisher */; };
 		D008F2FC28719444009FF9B5 /* SPAlert in Frameworks */ = {isa = PBXBuildFile; productRef = D008F2FB28719444009FF9B5 /* SPAlert */; };
 		D008F3042871970F009FF9B5 /* MemorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F3032871970F009FF9B5 /* MemorizeTests.swift */; };
+		D0C6459A28720D1000DCE8CD /* TestAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C6459928720D1000DCE8CD /* TestAsyncImage.swift */; };
+		D0C6459B28720D1000DCE8CD /* TestAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C6459928720D1000DCE8CD /* TestAsyncImage.swift */; };
 		EC34825C28019FED000F1FF6 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825B28019FED000F1FF6 /* MemoryGame.swift */; };
 		EC34826128020E12000F1FF6 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34826028020E12000F1FF6 /* EmojiMemoryGame.swift */; };
 		EC4776BA282EF22000E3AB4A /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4776B9282EF22000E3AB4A /* Pie.swift */; };
@@ -83,7 +84,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D008F25B28719346009FF9B5 /* deleteme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteme.swift; sourceTree = "<group>"; };
 		D008F2612871939F009FF9B5 /* TestCelFah.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCelFah.swift; sourceTree = "<group>"; };
 		D008F2622871939F009FF9B5 /* TestGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestGradient.swift; sourceTree = "<group>"; };
 		D008F2632871939F009FF9B5 /* TestViewListList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewListList.swift; sourceTree = "<group>"; };
@@ -134,6 +134,8 @@
 		D008F290287193A0009FF9B5 /* TestWrapped.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestWrapped.swift; sourceTree = "<group>"; };
 		D008F3012871970F009FF9B5 /* MemorizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D008F3032871970F009FF9B5 /* MemorizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeTests.swift; sourceTree = "<group>"; };
+		D0C645982871EEB400DCE8CD /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D0C6459928720D1000DCE8CD /* TestAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncImage.swift; sourceTree = "<group>"; };
 		EC34825B28019FED000F1FF6 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = SOURCE_ROOT; };
 		EC34826028020E12000F1FF6 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		EC4776B9282EF22000E3AB4A /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
@@ -171,7 +173,6 @@
 		D008F2592871931C009FF9B5 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
-				D008F25B28719346009FF9B5 /* deleteme.swift */,
 				D008F26D2871939F009FF9B5 /* TestAlert.swift */,
 				D008F2652871939F009FF9B5 /* TestAlgorithms.swift */,
 				D008F280287193A0009FF9B5 /* TestAnimation.swift */,
@@ -220,6 +221,7 @@
 				D008F28C287193A0009FF9B5 /* TestViewShapeList.swift */,
 				D008F290287193A0009FF9B5 /* TestWrapped.swift */,
 				D008F287287193A0009FF9B5 /* TestWrappedModel.swift */,
+				D0C6459928720D1000DCE8CD /* TestAsyncImage.swift */,
 			);
 			name = Learning;
 			path = Memorize/Learning;
@@ -236,6 +238,7 @@
 		EC7B8DA927F38B1B00B76550 = {
 			isa = PBXGroup;
 			children = (
+				D0C645982871EEB400DCE8CD /* MyPlayground.playground */,
 				EC7B8DB427F38B1B00B76550 /* Memorize */,
 				D008F2592871931C009FF9B5 /* Learning */,
 				D008F3022871970F009FF9B5 /* MemorizeTests */,
@@ -388,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C6459B28720D1000DCE8CD /* TestAsyncImage.swift in Sources */,
 				D008F3042871970F009FF9B5 /* MemorizeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +424,7 @@
 				D008F2E3287193A0009FF9B5 /* TestNavigationLink.swift in Sources */,
 				EC7B8DB827F38B1B00B76550 /* EmojiMemoryGameView.swift in Sources */,
 				D008F2EF287193A0009FF9B5 /* TestWrapped.swift in Sources */,
+				D0C6459A28720D1000DCE8CD /* TestAsyncImage.swift in Sources */,
 				EC4776BA282EF22000E3AB4A /* Pie.swift in Sources */,
 				D008F2E7287193A0009FF9B5 /* TestViewShapeList.swift in Sources */,
 				EC7B8DB627F38B1B00B76550 /* MemorizeApp.swift in Sources */,
@@ -449,7 +454,6 @@
 				D008F2D5287193A0009FF9B5 /* TestUserDefaults.swift in Sources */,
 				EC34826128020E12000F1FF6 /* EmojiMemoryGame.swift in Sources */,
 				D008F2AF287193A0009FF9B5 /* testViewList.swift in Sources */,
-				D008F25C28719346009FF9B5 /* deleteme.swift in Sources */,
 				ECE9E555282630370051BEF3 /* AspectVGrid.swift in Sources */,
 				D008F293287193A0009FF9B5 /* TestGradient.swift in Sources */,
 			);

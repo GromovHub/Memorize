@@ -38,7 +38,9 @@ struct MemorizeApp: App {
 //            TestToggle(model: game1)
 //            TestButton()
 //            TestWrapped(wrappedModel: wrapMod)
-            TestSheet()
+//            TestSheet()
+//            TestURLSession()
+            TestAsyncImage()
 //            TestNavigationView()
 //            TestNavigationView2()
             
