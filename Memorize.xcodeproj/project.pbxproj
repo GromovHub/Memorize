@@ -22,7 +22,7 @@
 		D008F2A9287193A0009FF9B5 /* TestAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F26D2871939F009FF9B5 /* TestAlert.swift */; };
 		D008F2AB287193A0009FF9B5 /* TestTerminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F26E2871939F009FF9B5 /* TestTerminal.swift */; };
 		D008F2AD287193A0009FF9B5 /* TestViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F26F2871939F009FF9B5 /* TestViewBuilder.swift */; };
-		D008F2AF287193A0009FF9B5 /* testViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F2702871939F009FF9B5 /* testViewList.swift */; };
+		D008F2AF287193A0009FF9B5 /* TestViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F2702871939F009FF9B5 /* TestViewList.swift */; };
 		D008F2B1287193A0009FF9B5 /* TestModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F2712871939F009FF9B5 /* TestModifiers.swift */; };
 		D008F2B3287193A0009FF9B5 /* TestViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F2722871939F009FF9B5 /* TestViewModifier.swift */; };
 		D008F2B5287193A0009FF9B5 /* TestTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F2732871939F009FF9B5 /* TestTextField.swift */; };
@@ -99,7 +99,7 @@
 		D008F26D2871939F009FF9B5 /* TestAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAlert.swift; sourceTree = "<group>"; };
 		D008F26E2871939F009FF9B5 /* TestTerminal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTerminal.swift; sourceTree = "<group>"; };
 		D008F26F2871939F009FF9B5 /* TestViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewBuilder.swift; sourceTree = "<group>"; };
-		D008F2702871939F009FF9B5 /* testViewList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewList.swift; sourceTree = "<group>"; };
+		D008F2702871939F009FF9B5 /* TestViewList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewList.swift; sourceTree = "<group>"; };
 		D008F2712871939F009FF9B5 /* TestModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModifiers.swift; sourceTree = "<group>"; };
 		D008F2722871939F009FF9B5 /* TestViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewModifier.swift; sourceTree = "<group>"; };
 		D008F2732871939F009FF9B5 /* TestTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTextField.swift; sourceTree = "<group>"; };
@@ -134,6 +134,7 @@
 		D008F290287193A0009FF9B5 /* TestWrapped.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestWrapped.swift; sourceTree = "<group>"; };
 		D008F3012871970F009FF9B5 /* MemorizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D008F3032871970F009FF9B5 /* MemorizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeTests.swift; sourceTree = "<group>"; };
+		D08298D4287477B300391F71 /* MemorizeTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MemorizeTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		D0C645982871EEB400DCE8CD /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D0C6459928720D1000DCE8CD /* TestAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncImage.swift; sourceTree = "<group>"; };
 		EC34825B28019FED000F1FF6 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = SOURCE_ROOT; };
@@ -173,6 +174,8 @@
 		D008F2592871931C009FF9B5 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				D008F27A287193A0009FF9B5 /* TestTemp.swift */,
+				D08298D4287477B300391F71 /* MemorizeTests-Bridging-Header.h */,
 				D008F26D2871939F009FF9B5 /* TestAlert.swift */,
 				D008F2652871939F009FF9B5 /* TestAlgorithms.swift */,
 				D008F280287193A0009FF9B5 /* TestAnimation.swift */,
@@ -207,7 +210,6 @@
 				D008F26B2871939F009FF9B5 /* TestSPAlert.swift */,
 				D008F279287193A0009FF9B5 /* TestStepper.swift */,
 				D008F275287193A0009FF9B5 /* TestTabView.swift */,
-				D008F27A287193A0009FF9B5 /* TestTemp.swift */,
 				D008F26E2871939F009FF9B5 /* TestTerminal.swift */,
 				D008F2732871939F009FF9B5 /* TestTextField.swift */,
 				D008F282287193A0009FF9B5 /* TestToggle.swift */,
@@ -215,7 +217,7 @@
 				D008F283287193A0009FF9B5 /* TestUserDefaults.swift */,
 				D008F28F287193A0009FF9B5 /* TestVariadic.swift */,
 				D008F26F2871939F009FF9B5 /* TestViewBuilder.swift */,
-				D008F2702871939F009FF9B5 /* testViewList.swift */,
+				D008F2702871939F009FF9B5 /* TestViewList.swift */,
 				D008F2632871939F009FF9B5 /* TestViewListList.swift */,
 				D008F2722871939F009FF9B5 /* TestViewModifier.swift */,
 				D008F28C287193A0009FF9B5 /* TestViewShapeList.swift */,
@@ -453,7 +455,7 @@
 				D008F2B9287193A0009FF9B5 /* TestTabView.swift in Sources */,
 				D008F2D5287193A0009FF9B5 /* TestUserDefaults.swift in Sources */,
 				EC34826128020E12000F1FF6 /* EmojiMemoryGame.swift in Sources */,
-				D008F2AF287193A0009FF9B5 /* testViewList.swift in Sources */,
+				D008F2AF287193A0009FF9B5 /* TestViewList.swift in Sources */,
 				ECE9E555282630370051BEF3 /* AspectVGrid.swift in Sources */,
 				D008F293287193A0009FF9B5 /* TestGradient.swift in Sources */,
 			);

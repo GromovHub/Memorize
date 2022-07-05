@@ -14,27 +14,37 @@ let json = """
 """.data(using: .utf8)!
 
 let decoder = JSONDecoder()
-let product = try decoder.decode(GroceryProduct.self, from: json)
 
-print(product.name) // Prints "Durian""
+//let product = try decoder.decode(GroceryProduct.self, from: json)
+//
+//print(product.name) // Prints "Durian""
 
-var jokeData: Data?
 
-let task1 = URLSession.shared.dataTask(with: URL(string: "https://v2.jokeapi.dev/joke/Any?safe-mode")!){ data, response, error in
-    jokeData = data
-    print(String(decoding: data!, as: UTF8.self))
-}.resume()
 
 struct Joke: Codable {
     var setup: String
     var delivery: String
 }
 
-let joke: Joke = try decoder.decode(Joke.self, from: jokeData!) ?? Joke(setup: "fail", delivery: "fail")
-print("""
---------------------joke below----------------
-- \(joke.setup)
-- \(joke.delivery)
---------------------joke abow-----------------
-\(joke.self)
-""")
+func aboutJoke1() {
+    do {
+        let decoder = JSONDecoder()
+        var jokeData: Data? = nil
+
+        let task1: Void = URLSession.shared.dataTask(with: URL(string: "https://v2.jokeapi.dev/joke/Any?safe-mode")!){ data, response, error in
+            jokeData = data
+            print(String(decoding: data!, as: UTF8.self))
+        }.resume()
+        let joke: Joke = try decoder.decode(Joke.self, from: jokeData!)
+    print("""
+    --------------------joke below----------------
+    - \(joke.setup)
+    - \(joke.delivery)
+    --------------------joke abow-----------------
+    \(joke.self)
+    """)
+    } catch {
+        print("something went wrong")
+    }
+}
+
