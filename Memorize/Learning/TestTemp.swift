@@ -12,7 +12,14 @@ struct TestTemp {
     
     // insert to test
     init() {
-     ZOO()
+        let lyrics = """
+        But I keep cruising
+        Can't stop, won't stop moving
+        It's like I got this music in my mind
+        Saying it's gonna be alright
+        """
+        print(lyrics.lines.count)
+        House(rooms: 5, cost: 100_000, name: "River House").summary()
     }
     
     private func asyncHello() {
@@ -368,9 +375,60 @@ struct TestTemp {
         print(MyClass3(valueForSuper: 100))
     }
     
+    private func aboutURLSession() {
+        let ipURL = URL(string: "https://api.ipify.org?format=json")
+        let session = URLSession(configuration: .default)
+        let task = session.dataTask(with: ipURL!) { data, urlResponse, error in
+            print(String(decoding: data!, as: UTF8.self))
+        //    print(urlResponse!)
+        //    print(error ?? "error nil")
+        }
+        task.resume()
+
+        URLSession.shared.dataTask(with: URL(string: "https://v2.jokeapi.dev/joke/Any?safe-mode")!) { data, response, error in
+            print(String(decoding: data!, as: UTF8.self))
+        }.resume()
+
+        URLSession.shared.dataTask(with: URL(string: "https://random.dog/woof.json")!) {data, _, _ in
+            print(String(decoding: data!, as: UTF8.self))}.resume()
+    }
+    
+    func aboutJoke() {
+        struct Joke: Codable {
+            var joke: String?
+            var setup: String?
+            var delivery: String?
+            var id: Int
+            var category: String
+            var flags: Flags?
+        }
+        struct Flags: Codable {
+            let nsfw: Bool
+        }
+        URLSession.shared.dataTask(with: URL(string: "https://v2.jokeapi.dev/joke/Any?type=twopart")!){ data, response, error in
+            let joke = try? JSONDecoder().decode(Joke.self, from: data!)
+            print("""
+            --------------------joke below----------------
+            - \(joke!.setup ?? joke!.joke!)
+            - \(joke!.delivery ?? "")
+            --------------------joke abow-----------------
+
+
+            \(joke!.self)
+
+
+            """)
+            print(String(decoding: data!, as: UTF8.self))
+        }.resume()
+    }
+    
+    func aboutExt(obj: Cats) {
+        print(obj.name)
+    }
+    
 }
 
-// MARK: - Classes
+// MARK: - Structs&Classes&Protocols&Extensions
 
 class MyClass1 {
     var valueOfMyClass1: Int
@@ -412,4 +470,73 @@ class MyClass3: MyClass1 {
     deinit {
         print("MyClass3 has been destroyed \(id3)")
     }
+}
+
+protocol Vehicle {
+    var name: String { get }
+    var seats: Int { get set }
+    func estimateTime(for distance: Int) -> Int
+    func travel(distance: Int)
+}
+
+struct Car: Vehicle {
+    let name: String
+    var seats: Int
+    func opaque() -> some Equatable {
+        0
+    }
+    func estimateTime(for distance: Int) -> Int {
+        0
+    }
+    func travel(distance: Int) {
+    }
+}
+
+protocol Cats {
+    var name: String { get }
+    func say() -> Void
+}
+
+extension Cats {
+    var name: String {
+        get {"John"}
+    }
+    func say() {
+        print("weow")
+    }
+}
+
+struct MyAnimal: Cats {
+    
+}
+
+extension String {
+    func trimmed() -> String {
+        self.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+    var lines: [String] {
+        self.components(separatedBy: .newlines)
+    }
+}
+
+protocol Building {
+    var rooms: Int { get }
+    var cost: Int { get }
+    var name: String { get }
+    func summary()
+}
+
+struct House: Building {
+    var rooms: Int
+    
+    var cost: Int
+    
+    var name: String
+    
+    func summary() {
+        print(name, rooms, cost)
+    }
+    
+    
+    
 }

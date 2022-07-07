@@ -32,7 +32,6 @@
 		D008F2BD287193A0009FF9B5 /* TestSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F277287193A0009FF9B5 /* TestSheet.swift */; };
 		D008F2BF287193A0009FF9B5 /* TestNavigationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F278287193A0009FF9B5 /* TestNavigationView2.swift */; };
 		D008F2C1287193A0009FF9B5 /* TestStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F279287193A0009FF9B5 /* TestStepper.swift */; };
-		D008F2C3287193A0009FF9B5 /* TestTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F27A287193A0009FF9B5 /* TestTemp.swift */; };
 		D008F2C5287193A0009FF9B5 /* TestModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F27B287193A0009FF9B5 /* TestModel1.swift */; };
 		D008F2C7287193A0009FF9B5 /* TestEmptyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F27C287193A0009FF9B5 /* TestEmptyTest.swift */; };
 		D008F2C9287193A0009FF9B5 /* TestJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F27D287193A0009FF9B5 /* TestJSON.swift */; };
@@ -60,6 +59,8 @@
 		D008F2F92871940C009FF9B5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D008F2F82871940C009FF9B5 /* Kingfisher */; };
 		D008F2FC28719444009FF9B5 /* SPAlert in Frameworks */ = {isa = PBXBuildFile; productRef = D008F2FB28719444009FF9B5 /* SPAlert */; };
 		D008F3042871970F009FF9B5 /* MemorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008F3032871970F009FF9B5 /* MemorizeTests.swift */; };
+		D06EBE022876F1100027729F /* TestTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06EBE012876F1100027729F /* TestTemp.swift */; };
+		D06EBE042876F1490027729F /* TestViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06EBE032876F1490027729F /* TestViewList.swift */; };
 		D0C6459A28720D1000DCE8CD /* TestAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C6459928720D1000DCE8CD /* TestAsyncImage.swift */; };
 		D0C6459B28720D1000DCE8CD /* TestAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C6459928720D1000DCE8CD /* TestAsyncImage.swift */; };
 		EC34825C28019FED000F1FF6 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC34825B28019FED000F1FF6 /* MemoryGame.swift */; };
@@ -109,7 +110,6 @@
 		D008F277287193A0009FF9B5 /* TestSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSheet.swift; sourceTree = "<group>"; };
 		D008F278287193A0009FF9B5 /* TestNavigationView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestNavigationView2.swift; sourceTree = "<group>"; };
 		D008F279287193A0009FF9B5 /* TestStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStepper.swift; sourceTree = "<group>"; };
-		D008F27A287193A0009FF9B5 /* TestTemp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestTemp.swift; path = "../../../../Downloads/Memorize-learning/Learning/TestTemp.swift"; sourceTree = "<group>"; };
 		D008F27B287193A0009FF9B5 /* TestModel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel1.swift; sourceTree = "<group>"; };
 		D008F27C287193A0009FF9B5 /* TestEmptyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestEmptyTest.swift; sourceTree = "<group>"; };
 		D008F27D287193A0009FF9B5 /* TestJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestJSON.swift; sourceTree = "<group>"; };
@@ -134,6 +134,8 @@
 		D008F290287193A0009FF9B5 /* TestWrapped.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestWrapped.swift; sourceTree = "<group>"; };
 		D008F3012871970F009FF9B5 /* MemorizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D008F3032871970F009FF9B5 /* MemorizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeTests.swift; sourceTree = "<group>"; };
+		D06EBE012876F1100027729F /* TestTemp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTemp.swift; sourceTree = "<group>"; };
+		D06EBE032876F1490027729F /* TestViewList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewList.swift; sourceTree = "<group>"; };
 		D08298D4287477B300391F71 /* MemorizeTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MemorizeTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		D0C645982871EEB400DCE8CD /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D0C6459928720D1000DCE8CD /* TestAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncImage.swift; sourceTree = "<group>"; };
@@ -174,7 +176,7 @@
 		D008F2592871931C009FF9B5 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
-				D008F27A287193A0009FF9B5 /* TestTemp.swift */,
+				D06EBE012876F1100027729F /* TestTemp.swift */,
 				D08298D4287477B300391F71 /* MemorizeTests-Bridging-Header.h */,
 				D008F26D2871939F009FF9B5 /* TestAlert.swift */,
 				D008F2652871939F009FF9B5 /* TestAlgorithms.swift */,
@@ -204,6 +206,7 @@
 				D008F281287193A0009FF9B5 /* TestOnTapGesture.swift */,
 				D008F28E287193A0009FF9B5 /* TestOpenSettings.swift */,
 				D008F288287193A0009FF9B5 /* TestPicker.swift */,
+				D06EBE032876F1490027729F /* TestViewList.swift */,
 				D008F284287193A0009FF9B5 /* TestPriority.swift */,
 				D008F277287193A0009FF9B5 /* TestSheet.swift */,
 				D008F286287193A0009FF9B5 /* TestSlider.swift */,
@@ -418,7 +421,6 @@
 				D008F2AD287193A0009FF9B5 /* TestViewBuilder.swift in Sources */,
 				D008F2B5287193A0009FF9B5 /* TestTextField.swift in Sources */,
 				D008F2CB287193A0009FF9B5 /* TestButtom.swift in Sources */,
-				D008F2C3287193A0009FF9B5 /* TestTemp.swift in Sources */,
 				D008F2B7287193A0009FF9B5 /* TestCheckpoint7.swift in Sources */,
 				D008F2A1287193A0009FF9B5 /* TestCheckpoint6.swift in Sources */,
 				D008F2D3287193A0009FF9B5 /* TestToggle.swift in Sources */,
@@ -427,10 +429,12 @@
 				EC7B8DB827F38B1B00B76550 /* EmojiMemoryGameView.swift in Sources */,
 				D008F2EF287193A0009FF9B5 /* TestWrapped.swift in Sources */,
 				D0C6459A28720D1000DCE8CD /* TestAsyncImage.swift in Sources */,
+				D06EBE022876F1100027729F /* TestTemp.swift in Sources */,
 				EC4776BA282EF22000E3AB4A /* Pie.swift in Sources */,
 				D008F2E7287193A0009FF9B5 /* TestViewShapeList.swift in Sources */,
 				EC7B8DB627F38B1B00B76550 /* MemorizeApp.swift in Sources */,
 				D008F2E1287193A0009FF9B5 /* TestURLSession.swift in Sources */,
+				D06EBE042876F1490027729F /* TestViewList.swift in Sources */,
 				D008F29B287193A0009FF9B5 /* TestKingFisher.swift in Sources */,
 				D008F2BF287193A0009FF9B5 /* TestNavigationView2.swift in Sources */,
 				D008F2C5287193A0009FF9B5 /* TestModel1.swift in Sources */,
