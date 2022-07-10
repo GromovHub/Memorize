@@ -12,14 +12,7 @@ struct TestTemp {
     
     // insert to test
     init() {
-        let lyrics = """
-        But I keep cruising
-        Can't stop, won't stop moving
-        It's like I got this music in my mind
-        Saying it's gonna be alright
-        """
-        print(lyrics.lines.count)
-        House(rooms: 5, cost: 100_000, name: "River House").summary()
+        
     }
     
     private func asyncHello() {
@@ -514,6 +507,14 @@ extension String {
     func trimmed() -> String {
         self.trimmingCharacters(in: .whitespacesAndNewlines)
     }
+    /*
+     let lyrics = """
+     But I keep cruising
+     Can't stop, won't stop moving
+     It's like I got this music in my mind
+     Saying it's gonna be alright
+     """
+     */
     var lines: [String] {
         self.components(separatedBy: .newlines)
     }

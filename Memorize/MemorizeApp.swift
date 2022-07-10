@@ -40,7 +40,8 @@ struct MemorizeApp: App {
 //            TestWrapped(wrappedModel: wrapMod)
 //            TestSheet()
 //            TestURLSession()
-            TestAsyncImage()
+//            TestAsyncImage()
+            TestNativeUrlImage()
 //            TestNavigationView()
 //            TestNavigationView2()
             

@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D038E3AF286E065D000BBFB3"
+               BlueprintIdentifier = "D008F3002871970F009FF9B5"
                BuildableName = "MemorizeTests.xctest"
                BlueprintName = "MemorizeTests"
                ReferencedContainer = "container:Memorize.xcodeproj">

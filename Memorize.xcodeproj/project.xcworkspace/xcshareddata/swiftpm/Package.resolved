@@ -8,33 +8,6 @@
         "revision" : "022e4eeb79f817748544b318b991d9a70036bbf8",
         "version" : "7.2.4"
       }
-    },
-    {
-      "identity" : "spalert",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ivanvorobei/SPAlert.git",
-      "state" : {
-        "revision" : "5fd3e2923d26f0f0b40f0e6c10fca458a61a73c4",
-        "version" : "4.2.0"
-      }
-    },
-    {
-      "identity" : "unsplash-photopicker-ios",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/unsplash/unsplash-photopicker-ios",
-      "state" : {
-        "branch" : "master",
-        "revision" : "7306a92362855ec41149e5e214c63089586653f4"
-      }
-    },
-    {
-      "identity" : "unsplashswiftui",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ArnavMotwani/UnsplashSwiftUI",
-      "state" : {
-        "branch" : "main",
-        "revision" : "65b7f920e9c77a471505636c7ec743e0715e5559"
-      }
     }
   ],
   "version" : 2
